@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover upcoming technology, AI and sustainability events in Karachi and online. Source links, clear verification and times in Pakistan Standard Time.">
+  <meta name="color-scheme" content="light dark">
+  <title>Karachi Events Radar</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23162528'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23c5ee68' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='none' stroke='%23c5ee68'/%3E%3Cpath d='M16 16L24 8' stroke='%23c5ee68' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#events">Skip to events</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Karachi Events Radar home"><span class="radar-mark" aria-hidden="true">◎</span><span>KARACHI<span class="brand-sub">EVENTS RADAR</span></span></a>
+    <div class="top-actions"><span class="timezone">Karachi, PKT <span id="clock"></span></span><button id="theme" class="icon-button" aria-label="Switch to dark mode" title="Switch colour theme">◐</button></div>
+  </header>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Event filters">
+      <div class="sidebar-heading"><span>YOUR RADAR</span><span class="small-label">01</span></div>
+      <h2>Explore events</h2>
+      <nav id="categories" aria-label="Categories">
+        <button class="category active" data-category="all" aria-pressed="true"><span class="category-icon">◉</span>All events<span class="count" data-count="all">0</span></button>
+        <button class="category" data-category="AI/ML" aria-pressed="false"><span class="category-icon">✳</span>AI & machine learning<span class="count" data-count="AI/ML">0</span></button>
+        <button class="category" data-category="Agents" aria-pressed="false"><span class="category-icon">⌘</span>AI agents<span class="count" data-count="Agents">0</span></button>
+        <button class="category" data-category="Sustainability" aria-pressed="false"><span class="category-icon">❋</span>Sustainability<span class="count" data-count="Sustainability">0</span></button>
+        <button class="category" data-category="Emerging Tech" aria-pressed="false"><span class="category-icon">◇</span>Emerging tech<span class="count" data-count="Emerging Tech">0</span></button>
+        <button class="category" data-category="Students" aria-pressed="false"><span class="category-icon">▱</span>For students<span class="count" data-count="Students">0</span></button>
+      </nav>
+      <div class="filter-section"><h3>ATTEND YOUR WAY</h3><div class="segmented" role="group" aria-label="Event format"><button data-format="all" class="selected" aria-pressed="true">All</button><button data-format="in-person" aria-pressed="false">In person</button><button data-format="online" aria-pressed="false">Online</button></div></div>
+      <div class="filter-section"><h3>NARROW IT DOWN</h3><label class="check-row"><input type="checkbox" id="free">Free events only</label><label class="check-row"><input type="checkbox" id="students">Student-only events</label><label class="check-row"><input type="checkbox" id="verified">Verified only</label></div>
+      <div class="sidebar-note"><span class="note-icon">◎</span><strong>A little less searching.<br>A lot more showing up.</strong><p>Karachi and online. All event times are shown in PKT.</p></div>
+    </aside>
+    <main>
+      <div class="page-heading"><div><div class="eyebrow">THE CITY IS BUILDING. BE PART OF IT.</div><h1>Find your next <em>thing.</em></h1><p>Meet the people. Learn something new. Make it happen.</p></div><div class="location-pill"><span aria-hidden="true">⌖</span> Karachi + online</div></div>
+      <div id="notice" class="notice" role="status">Loading your radar…</div>
+      <section class="stats" aria-label="Radar at a glance"><div><span class="stat-label">ON THE RADAR</span><strong id="total">—</strong><span class="stat-caption">upcoming events</span></div><div><span class="stat-label">THIS WEEK</span><strong id="week">—</strong><span class="stat-caption">next 7 days</span></div><div><span class="stat-label">FREE TO ATTEND</span><strong id="free-count">—</strong><span class="stat-caption">no ticket cost</span></div><div class="refresh-stat"><span class="stat-label">LAST UPDATED</span><strong id="updated">—</strong><span id="freshness" class="stat-caption">Daily source checks</span></div></section>
+      <section class="event-section" aria-labelledby="events-title">
+        <div class="section-heading"><div><h2 id="events-title">Coming up</h2><span id="result-count" class="muted" aria-live="polite"></span></div><label class="sort-label">Sort by <select id="sort"><option value="date">Soonest first</option><option value="new">Recently added</option></select></label></div>
+        <div class="toolbar"><label class="search"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="search" aria-label="Search events" placeholder="Search events, topics or organizers…"></label><label class="date-control"><span>Date</span><select id="range"><option value="all">Any time</option><option value="7">Next 7 days</option><option value="30">Next 30 days</option><option value="custom">Custom range</option></select></label><button class="text-button" id="reset">Reset filters</button></div>
+        <div id="custom-dates" class="custom-dates" hidden><label>From <input type="date" id="date-from"></label><label>To <input type="date" id="date-to"></label></div>
+        <p id="date-error" class="error-text" hidden>The end date must be on or after the start date.</p>
+        <div id="events" class="event-grid" aria-live="polite" aria-busy="true"></div>
+        <div id="empty" class="empty" hidden><span aria-hidden="true">◎</span><h3>No events in this orbit.</h3><p>Try another topic, a wider date range or fewer filters.</p><button id="empty-reset" class="primary-button">Clear filters</button></div>
+      </section>
+      <footer><span>Karachi Events Radar <span aria-hidden="true">/</span> Stay curious.</span><button id="about-open" class="text-button">How the radar works</button></footer>
+    </main>
+  </div>
+  <dialog id="about"><button id="about-close" class="dialog-close" aria-label="Close">×</button><div class="eyebrow">BEHIND THE RADAR</div><h2>Good events. Clear sources.</h2><p>The daily agent searches Luma, Eventbrite, Meetup, GDG and public web results for relevant events in Karachi and online.</p><h3>What does verified mean?</h3><p>The event’s own page supplied matching structured title, date and location data, and its event link was reachable. This confirms page evidence, not organizer legitimacy or availability.</p><p>AI-extracted details and search-only results stay <strong>unverified</strong>. Every live event links to its source. Check the organizer’s page before making plans.</p><h3>What can be missed?</h3><p>Private posts, blocked pages and unindexed events may not appear. Online eligibility can be unclear. The agent keeps earlier results if an update fails and displays when data is stale.</p><p>Confidence is an evidence score, not a probability. Sample events are fictional and cannot be registered for.</p></dialog>
+</body>
+</html>

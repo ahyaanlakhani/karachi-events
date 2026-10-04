@@ -1,0 +1,26 @@
+{
+  "timezone": "Asia/Karachi",
+  "horizon_days": 120,
+  "max_searches_per_run": 8,
+  "monthly_search_credits": 300,
+  "max_pages_per_run": 40,
+  "max_llm_calls_per_run": 20,
+  "request_timeout_seconds": 18,
+  "listing_urls": [
+    "https://lu.ma/karachi",
+    "https://www.eventbrite.com/d/pakistan--karachi/science-and-tech--events/",
+    "https://www.meetup.com/find/?location=pk--Karachi&source=EVENTS&categoryId=546",
+    "https://gdg.community.dev/gdg-karachi/"
+  ],
+  "event_urls": [],
+  "queries": [
+    "site:lu.ma Karachi AI machine learning technology events {month}",
+    "site:eventbrite.com Karachi technology sustainability workshop {month}",
+    "site:meetup.com Karachi AI developer events {month}",
+    "site:gdg.community.dev Karachi events {month}",
+    "Karachi university student society AI hackathon workshop {month}",
+    "site:linkedin.com/posts Karachi AI sustainability event registration {month}",
+    "site:facebook.com/events Karachi technology university workshop {month}",
+    "online free AI agents machine learning sustainability webinar Pakistan {month}"
+  ]
+}
