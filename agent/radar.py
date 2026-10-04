@@ -176,7 +176,7 @@ def normalize_event(raw, now, horizon=120):
     title = clean(raw.get('title'), 200)
     source = canonical_url(raw.get('source_url'))
     value = raw.get('start')
-    if not title or not source or not isinstance(value, str):
+    if not title or not source or not isinstance(value, str) or not re.match(r'^\d{4}-\d{2}-\d{2}(?:[T ]|$)', value):
         return None
     if any(word in str(raw.get('event_status', '')).lower() for word in ('cancelled','canceled','postponed')):
         return None

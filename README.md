@@ -2,6 +2,8 @@
 
 A mobile-friendly events dashboard and a daily Python discovery agent for AI/ML, agents, sustainability, emerging technology and student events in Karachi or online.
 
+[Open the dashboard](https://ahyaanlakhani.github.io/karachi-events/) · [Configure API secrets](https://github.com/ahyaanlakhani/karachi-events/settings/secrets/actions) · [Run or inspect the agent](https://github.com/ahyaanlakhani/karachi-events/actions/workflows/radar.yml)
+
 **The included dashboard starts with clearly labelled fictional sample events.** They have no registration links. A successful collection replaces them with live data; failed runs preserve the previous dataset. Live collection needs API keys for useful coverage. No keys belong in browser code or Git.
 
 ## Preview locally
