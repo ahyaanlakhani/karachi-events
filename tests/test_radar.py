@@ -52,6 +52,8 @@ class NormalizationTests(unittest.TestCase):
 
     def test_invalid_dates_and_urls(self):
         self.assertIsNone(normalize_event(raw(start='2026-02-30'),NOW))
+        self.assertIsNone(normalize_event(raw(start='2026-10'),NOW))
+        self.assertIsNone(normalize_event(raw(start='2026'),NOW))
         self.assertIsNone(normalize_event(raw(source_url='javascript:alert(1)'),NOW))
 
     def test_free_not_inferred_from_missing_price(self):
