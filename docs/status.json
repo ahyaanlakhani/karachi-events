@@ -1,6 +1,14 @@
 {
-  "state": "demo",
-  "last_attempt": "2026-10-04T01:31:44.999524+05:00",
+  "state": "failed",
+  "last_attempt": "2026-10-05T09:11:45.354815+00:00",
   "last_success": null,
-  "message": "Fictional preview. Run the agent with API keys to collect real events."
+  "message": "No usable upcoming events were extracted. Previous dataset preserved.",
+  "warnings": [
+    "Eventbrite: discovery page unavailable",
+    "GDG: discovery page unavailable",
+    "Meetup: discovery page unavailable",
+    "No extraction key configured; only structured event data can be read",
+    "Tavily key not configured; using public pages only"
+  ],
+  "pages_checked": 0
 }
