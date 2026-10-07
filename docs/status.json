@@ -1,6 +1,6 @@
 {
   "state": "failed",
-  "last_attempt": "2026-10-06T09:04:33.365929+00:00",
+  "last_attempt": "2026-10-07T08:47:36.142176+00:00",
   "last_success": null,
   "message": "No usable upcoming events were extracted. Previous dataset preserved.",
   "warnings": [
@@ -10,5 +10,5 @@
     "No extraction key configured; only structured event data can be read",
     "Tavily key not configured; using public pages only"
   ],
-  "pages_checked": 0
+  "pages_checked": 5
 }
