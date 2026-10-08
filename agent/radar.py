@@ -254,7 +254,7 @@ class Fetcher:
 
     def request(self, url):
         for _ in range(6):
-            url = public_url(url)
+            public_url(url)  # validate only: rewriting (e.g. stripping a trailing slash) can loop against the redirect
             with self.session.get(url,timeout=self.timeout,allow_redirects=False,stream=True) as response:
                 if response.is_redirect:
                     url = urljoin(url,response.headers['Location'])
