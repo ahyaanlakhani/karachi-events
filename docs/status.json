@@ -1,6 +1,6 @@
 {
   "state": "failed",
-  "last_attempt": "2026-10-08T09:06:18.153022+00:00",
+  "last_attempt": "2026-10-08T09:07:01.635474+00:00",
   "last_success": null,
   "message": "No usable upcoming events were extracted. Previous dataset preserved.",
   "warnings": [
