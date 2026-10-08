@@ -1,12 +1,11 @@
 {
   "state": "failed",
-  "last_attempt": "2026-10-08T08:44:22.998957+00:00",
+  "last_attempt": "2026-10-08T08:48:27.580598+00:00",
   "last_success": null,
   "message": "No usable upcoming events were extracted. Previous dataset preserved.",
   "warnings": [
     "Eventbrite: discovery page unavailable",
     "GDG: discovery page unavailable",
-    "Meetup: discovery page unavailable",
     "Tavily key not configured; using public pages only"
   ],
   "pages_checked": 0
