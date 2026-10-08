@@ -1,12 +1,18 @@
 {
-  "state": "failed",
-  "last_attempt": "2026-10-08T09:07:01.635474+00:00",
-  "last_success": null,
-  "message": "No usable upcoming events were extracted. Previous dataset preserved.",
+  "state": "partial",
+  "last_attempt": "2026-10-08T09:09:07.776293+00:00",
+  "last_success": "2026-10-08T09:09:07.776293+00:00",
+  "message": "4 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
-    "GDG: discovery page unavailable",
-    "Tavily key not configured; using public pages only"
+    "Eventbrite: event page unavailable",
+    "Facebook: event page unavailable",
+    "Gemini extraction unavailable",
+    "LinkedIn: event page unavailable",
+    "Page budget reached; some sources await the next run",
+    "instagram.com: event page unavailable"
   ],
-  "pages_checked": 0
+  "pages_checked": 33,
+  "llm_calls": 17,
+  "search_credits_reserved": 8
 }
