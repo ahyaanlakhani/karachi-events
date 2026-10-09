@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-08T09:09:07.776293+00:00",
+  "generated_at": "2026-10-09T09:12:41.626081+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -29,7 +29,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-08T09:09:07.776293+00:00",
+      "last_checked": "2026-10-09T09:12:41.626081+00:00",
       "sources": [
         "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-beyond-intelligence"
       ],
@@ -58,7 +58,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-08T09:09:07.776293+00:00",
+      "last_checked": "2026-10-09T09:12:41.626081+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316692184"
       ],
@@ -73,23 +73,23 @@
       "venue": "Online",
       "format": "online",
       "organizer": "LFDT Pakistan",
-      "description": "**LF Decentralized Trust Webinar with DSR: Automated Supply Chain Accountability with Computer Vision & Ledger Technology** Join us for a webinar with DSR Corporation, an LF Decentralized Trust General Member and maintainer of multiple open source projects, to explore how computer vision and distributed ledger technology can automate accountability",
+      "description": "**LF Decentralized Trust Webinar with DSR: Automated Supply Chain Accountability with Computer Vision & Ledger Technology** Join us for a webinar with DSR",
       "categories": [
         "Emerging Tech"
       ],
       "cost": "Cost not listed",
       "is_free": null,
       "student_only": false,
-      "source_url": "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316325888",
+      "source_url": "https://www.meetup.com/lfdt-pakistan/events/316325888",
       "source_name": "Meetup",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "registration_url": "https://www.meetup.com/lfdt-pakistan/events/316325888/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-08T09:09:07.776293+00:00",
+      "last_checked": "2026-10-09T09:12:41.626081+00:00",
       "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316325888"
+        "https://www.meetup.com/lfdt-pakistan/events/316325888"
       ],
       "extraction": "jsonld"
     },
@@ -102,23 +102,23 @@
       "venue": "Online",
       "format": "online",
       "organizer": "LFDT Pakistan",
-      "description": "This is a second event in a series about the Talent Angels mentorship project. Skills are the currency of talent. In the age of AI, skill demand shifts faster than any individual, educator, or employer can track, making it critical for humans and AI systems alike to know what to learn, how to develop it, and when it becomes relevant. At Talent Ange",
+      "description": "This is a second event in a series about the Talent Angels mentorship project. Skills are the currency of talent. In the age of AI, skill demand shifts fa",
       "categories": [
         "AI/ML"
       ],
       "cost": "Cost not listed",
       "is_free": null,
       "student_only": false,
-      "source_url": "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009",
+      "source_url": "https://www.meetup.com/lfdt-pakistan/events/316285009",
       "source_name": "Meetup",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "registration_url": "https://www.meetup.com/lfdt-pakistan/events/316285009/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-08T09:09:07.776293+00:00",
+      "last_checked": "2026-10-09T09:12:41.626081+00:00",
       "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009"
+        "https://www.meetup.com/lfdt-pakistan/events/316285009"
       ],
       "extraction": "jsonld"
     }
