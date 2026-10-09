@@ -1,18 +1,23 @@
 {
   "state": "partial",
-  "last_attempt": "2026-10-08T09:09:07.776293+00:00",
-  "last_success": "2026-10-08T09:09:07.776293+00:00",
+  "last_attempt": "2026-10-09T09:12:41.626081+00:00",
+  "last_success": "2026-10-09T09:12:41.626081+00:00",
   "message": "4 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
     "Eventbrite: event page unavailable",
+    "Extraction request budget reached",
     "Facebook: event page unavailable",
     "Gemini extraction unavailable",
     "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
-    "instagram.com: event page unavailable"
+    "instagram.com: event page unavailable",
+    "medium.com: event page unavailable",
+    "nifa.usda.gov: event page unavailable",
+    "pubs.acs.org: event page unavailable",
+    "sciencedirect.com: event page unavailable"
   ],
-  "pages_checked": 33,
-  "llm_calls": 17,
-  "search_credits_reserved": 8
+  "pages_checked": 19,
+  "llm_calls": 20,
+  "search_credits_reserved": 16
 }
