@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-09T09:12:41.626081+00:00",
+  "generated_at": "2026-10-10T08:36:23.117738+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -29,9 +29,38 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-09T09:12:41.626081+00:00",
+      "last_checked": "2026-10-10T08:36:23.117738+00:00",
       "sources": [
         "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-beyond-intelligence"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "8a4a79ee006fab01",
+      "title": "Knowledge Lab",
+      "start": "2026-10-13T14:00:00+05:00",
+      "end": "2026-10-13T16:45:00+05:00",
+      "time_known": true,
+      "venue": "Contour Software (Pvt) Ltd., 4th Floor, SNCC 1/1-A, Prestige Trade Center, Main Shaheed-e-Millat Rd, Modern Society Karachi, 74200, Pakistan, Karachi, Karachi, pk",
+      "format": "in-person",
+      "organizer": "Pakistan Agile Education",
+      "description": "📣 Pakistan Agile Education is thrilled to introduce a brand-new learning initiative - Knowledge Lab! 🚀 A space to Learn, Collaborate & Grow through mean",
+      "categories": [
+        "Emerging Tech"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.meetup.com/pakistan-agile-education/events/316867544",
+      "source_name": "Meetup",
+      "registration_url": "https://www.meetup.com/pakistan-agile-education/events/316867544/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-10T08:36:23.117738+00:00",
+      "last_checked": "2026-10-10T08:36:23.117738+00:00",
+      "sources": [
+        "https://www.meetup.com/pakistan-agile-education/events/316867544"
       ],
       "extraction": "jsonld"
     },
@@ -58,7 +87,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-09T09:12:41.626081+00:00",
+      "last_checked": "2026-10-10T08:36:23.117738+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316692184"
       ],
@@ -87,8 +116,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-09T09:12:41.626081+00:00",
+      "last_checked": "2026-10-10T08:36:23.117738+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316325888",
         "https://www.meetup.com/lfdt-pakistan/events/316325888"
       ],
       "extraction": "jsonld"
@@ -116,8 +146,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-09T09:12:41.626081+00:00",
+      "last_checked": "2026-10-10T08:36:23.117738+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009",
         "https://www.meetup.com/lfdt-pakistan/events/316285009"
       ],
       "extraction": "jsonld"
