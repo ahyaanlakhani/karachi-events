@@ -1,40 +1,9 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-10T08:36:23.117738+00:00",
+  "generated_at": "2026-10-11T09:00:15.931739+00:00",
   "timezone": "Asia/Karachi",
   "events": [
-    {
-      "id": "16082d40b86c20bb",
-      "title": "BEYOND INTELLIGENCE",
-      "start": "2026-10-10T12:00:00+05:00",
-      "end": "2026-10-10T16:00:00+05:00",
-      "time_known": true,
-      "venue": "CEGA Karachi, CEGA Karachi, NED University Of Engineering & Technology, Karachi, Pakistan, Karachi, Sindh, PK",
-      "format": "in-person",
-      "organizer": "Google Developer Groups",
-      "description": "Join Karachi’s tech community for a dynamic day exploring AI's evolution from simple tasks to reasoning and collaboration. Engage in expert talks, fresh ideas, and real conversations, ending with an un-conference that lets participants shape the discussion. Ideal for tech enthusiasts eager to delve into AI innovation.",
-      "categories": [
-        "AI/ML",
-        "Emerging Tech",
-        "Students"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-beyond-intelligence",
-      "source_name": "GDG",
-      "registration_url": "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-beyond-intelligence/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
-      "confidence": 90,
-      "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-10T08:36:23.117738+00:00",
-      "sources": [
-        "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-beyond-intelligence"
-      ],
-      "extraction": "jsonld"
-    },
     {
       "id": "8a4a79ee006fab01",
       "title": "Knowledge Lab",
@@ -58,7 +27,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-10T08:36:23.117738+00:00",
-      "last_checked": "2026-10-10T08:36:23.117738+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
       "sources": [
         "https://www.meetup.com/pakistan-agile-education/events/316867544"
       ],
@@ -87,7 +56,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-10T08:36:23.117738+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316692184"
       ],
@@ -116,7 +85,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-10T08:36:23.117738+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
       "sources": [
         "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316325888",
         "https://www.meetup.com/lfdt-pakistan/events/316325888"
@@ -146,10 +115,242 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-10T08:36:23.117738+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
       "sources": [
         "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009",
         "https://www.meetup.com/lfdt-pakistan/events/316285009"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "2039f488fa82d95a",
+      "title": "🛠️✨ Build Hour Series WEEK 7 Bonus Week: Shipping our Build Guides",
+      "start": "2026-10-15T22:00:00+05:00",
+      "end": "2026-10-15T23:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Aparna Ramesh, Anennya Veeraraghavan, Anennya, Patty O'Brien Novak, Patty OBrien Novak",
+      "description": "We’re wrapping up our Build Hour series with one more live session. 🎉 Over six weeks, Sumathi Menon and the Build TogetHER team went from a blank page to a working system that turns Build TogetHER session recordings into step-by-step guides. This bonus session is where we take it across the finish line. What to expect 👀 Same as the rest of the seri",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-pd3q",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-pd3q",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-pd3q"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "f976ab7f65a4683c",
+      "title": "WDAI: [VIRTUAL] UK Monthly Huddle - October",
+      "start": "2026-10-22T17:00:00+05:00",
+      "end": "2026-10-22T18:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Katherine Mora, Eva@WDAI",
+      "description": "Join us for our monthly UK WDAI virtual huddle. More details on the agenda coming soon. 🔴 This session is recorded automatically by the WDAI Recorder. The recording will be uploaded to the WDAI member Resources library automatically after the event.",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-18j2",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-18j2",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-18j2"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "2afeb5cfc352e198",
+      "title": "Show, Don't Tell - October 2026",
+      "start": "2026-10-22T23:30:00+05:00",
+      "end": "2026-10-23T00:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Carolyn, Lauren Irving",
+      "description": "Join us to learn actionable use cases and workflows that are being used by WDAI. This is a chance to share your knowledge and discover practical applications of AI that you can use today. Each session is 30 minutes and will feature 3 people (10 minutes each) walking through an AI workflow or use case. Sign-ups are in the Slack post here. Nothing is",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-728x",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-728x",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-728x"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "ed9f19402cd5c2fe",
+      "title": "🌎🎙️ WDAI Global Conversation: Rising in AI as Our Whole Selves",
+      "start": "2026-10-23T22:00:00+05:00",
+      "end": "2026-10-23T23:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Patty O'Brien Novak, Patty OBrien Novak, Nicole Willis Meyerson, Katy Moreland, Amie Ninh",
+      "description": "You've seen the numbers. Women hold about 26% of AI jobs, and even fewer leadership roles. You also know the real-life side: the pay gap, the worry that taking a break could mean falling behind, the extra care it takes to raise a hard question and still be seen as a leader. You navigate all of it with skill. And you keep building anyway. 🌟 Join us",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-np4o",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-np4o",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-np4o"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "e6c9f094af67c72a",
+      "title": "Community Meet + Greet",
+      "start": "2026-11-05T22:00:00+05:00",
+      "end": "2026-11-05T23:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org",
+      "description": "These are WDAI's most informal every other month gatherings! As we continue to grow, this time and space is for all of us to connect. Come for 10 minutes, the whole time. Video on, video off. Bring topics and questions. Or just be here to listen. We do not record these sessions. We have no agenda other than to connect! Hope to see you there!",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/lblm1lbj",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/lblm1lbj",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/lblm1lbj"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "86bf6363e82acade",
+      "title": "✨🔧 BuildTogetHER with Madina: Build your first RAG",
+      "start": "2026-11-14T02:00:00+05:00",
+      "end": "2026-11-14T03:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Aparna Ramesh, Anennya Veeraraghavan, Anennya, Patty O'Brien Novak, Aparna Ramesh, Patty OBrien N",
+      "description": "In November's BuildTogetHER with Madina, we'll learn how to give AI your own reference library (also known as RAG). Most of us have a document we've never fully read. What if AI could answer from your stuff, with citations, instead of guessing from the whole internet? That's RAG, and Madina Gbotoe, our Chief AI Officer, builds these for a living. T",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-xxo5",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-xxo5",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-xxo5"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "6e1bb6c8f5edb67e",
+      "title": "Show, Don't Tell - November 2026",
+      "start": "2026-11-20T00:30:00+05:00",
+      "end": "2026-11-20T01:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Carolyn, Lauren Irving",
+      "description": "Join us to learn actionable use cases and workflows that are being used by WDAI. This is a chance to share your knowledge and discover practical applications of AI that you can use today. Each session is 30 minutes and will feature 3 people (10 minutes each) walking through an AI workflow or use case. Sign-ups are in the Slack post here. Nothing is",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-eftw",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-eftw",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-eftw"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "9e13d6816c534b86",
+      "title": "🛠️✨ Build TogetHER Office Hours with Madina: Your first RAG",
+      "start": "2026-11-21T02:00:00+05:00",
+      "end": "2026-11-21T03:00:00+05:00",
+      "time_known": true,
+      "venue": "Online Event",
+      "format": "online",
+      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Aparna Ramesh, Anennya Veeraraghavan, Patty OBrien Novak, Aparna Ramesh, Anennya, Patty O'Brien N",
+      "description": "🛠️💬 Build TogetHER Office Hours with Madina: Your first RAG This is part 2 of 2. At the Nov 13 session, Madina Gbotoe walked us through building a first RAG. Now it's your turn to take it further, with Madina and the Build TogetHER team on hand to help. Bring whatever you've got, whether that's a working prototype, a half-built idea or a \"why is it",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://luma.com/women-4hy4",
+      "source_name": "Luma",
+      "registration_url": "https://luma.com/women-4hy4",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-11T09:00:15.931739+00:00",
+      "last_checked": "2026-10-11T09:00:15.931739+00:00",
+      "sources": [
+        "https://luma.com/women-4hy4"
       ],
       "extraction": "jsonld"
     }
