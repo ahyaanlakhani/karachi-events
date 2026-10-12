@@ -1,18 +1,21 @@
 {
   "state": "partial",
-  "last_attempt": "2026-10-11T09:00:15.931739+00:00",
-  "last_success": "2026-10-11T09:00:15.931739+00:00",
+  "last_attempt": "2026-10-12T09:21:28.461915+00:00",
+  "last_success": "2026-10-12T09:21:28.461915+00:00",
   "message": "12 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
-    "Eventbrite: event page unavailable",
+    "Extraction request budget reached",
     "Facebook: event page unavailable",
     "Gemini extraction unavailable",
+    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
-    "climes.se: event page unavailable",
-    "instagram.com: event page unavailable"
+    "ember-energy.org: event page unavailable",
+    "instagram.com: event page unavailable",
+    "medium.com: event page unavailable",
+    "ssa.gov: event page unavailable"
   ],
-  "pages_checked": 29,
-  "llm_calls": 19,
-  "search_credits_reserved": 32
+  "pages_checked": 23,
+  "llm_calls": 20,
+  "search_credits_reserved": 40
 }
