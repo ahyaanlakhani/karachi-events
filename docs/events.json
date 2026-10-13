@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-12T09:21:28.461915+00:00",
+  "generated_at": "2026-10-13T09:31:16.113329+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -27,7 +27,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-10T08:36:23.117738+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://www.meetup.com/pakistan-agile-education/events/316867544"
       ],
@@ -56,7 +56,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316692184"
       ],
@@ -85,9 +85,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316325888",
         "https://www.meetup.com/lfdt-pakistan/events/316325888"
       ],
       "extraction": "jsonld"
@@ -115,9 +114,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009",
         "https://www.meetup.com/lfdt-pakistan/events/316285009"
       ],
       "extraction": "jsonld"
@@ -145,7 +143,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-pd3q"
       ],
@@ -174,7 +172,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -203,7 +201,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -232,7 +230,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-np4o"
       ],
@@ -261,7 +259,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
@@ -290,7 +288,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -319,7 +317,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -348,7 +346,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-12T09:21:28.461915+00:00",
+      "last_checked": "2026-10-13T09:31:16.113329+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
