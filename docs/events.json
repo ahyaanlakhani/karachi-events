@@ -1,39 +1,9 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-14T07:44:56.758582+00:00",
+  "generated_at": "2026-10-14T16:41:40.212654+00:00",
   "timezone": "Asia/Karachi",
   "events": [
-    {
-      "id": "5440c1c8e9ae1459",
-      "title": "Automated Supply Chain Accountability with Computer Vision & Ledger Technology",
-      "start": "2026-10-14T19:00:00+05:00",
-      "end": "2026-10-14T20:00:00+05:00",
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "LFDT Pakistan",
-      "description": "**LF Decentralized Trust Webinar with DSR: Automated Supply Chain Accountability with Computer Vision & Ledger Technology** Join us for a webinar with DSR",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://www.meetup.com/lfdt-pakistan/events/316325888",
-      "source_name": "Meetup",
-      "registration_url": "https://www.meetup.com/lfdt-pakistan/events/316325888/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
-      "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316325888",
-        "https://www.meetup.com/lfdt-pakistan/events/316325888"
-      ],
-      "extraction": "jsonld"
-    },
     {
       "id": "bdf791ca814efdd4",
       "title": "LFDT Mentorship: Talent Angels - Pilot Project",
@@ -57,9 +27,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009",
         "https://www.meetup.com/lfdt-pakistan/events/316285009"
       ],
       "extraction": "jsonld"
@@ -87,7 +56,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-pd3q"
       ],
@@ -102,23 +71,23 @@
       "venue": "Online",
       "format": "online",
       "organizer": "LFDT Pakistan",
-      "description": "Join us for a webinar with Zeeve, an LFDT general member, on building Bank-Grade Privacy for Enterprise Blockchain Networks. As regulated institutions move blockchain initiatives from pilots to production, privacy can no longer be treated as a single cryptographic feature. This session will explore how bank-grade privacy requires confidential trans",
+      "description": "Join us for a webinar with Zeeve, an LFDT general member, on building Bank-Grade Privacy for Enterprise Blockchain Networks. As regulated institutions move",
       "categories": [
         "Emerging Tech"
       ],
       "cost": "Cost not listed",
       "is_free": null,
       "student_only": false,
-      "source_url": "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316843903",
+      "source_url": "https://www.meetup.com/lfdt-pakistan/events/316843903",
       "source_name": "Meetup",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "registration_url": "https://www.meetup.com/lfdt-pakistan/events/316843903/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
       "first_seen": "2026-10-14T07:44:56.758582+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
-        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316843903"
+        "https://www.meetup.com/lfdt-pakistan/events/316843903"
       ],
       "extraction": "jsonld"
     },
@@ -145,7 +114,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -174,7 +143,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -203,7 +172,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-np4o"
       ],
@@ -232,7 +201,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
@@ -261,7 +230,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -290,7 +259,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -319,7 +288,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T07:44:56.758582+00:00",
+      "last_checked": "2026-10-14T16:41:40.212654+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
