@@ -337,6 +337,25 @@ class Extractor:
         self.calls = 0
         self.last_call = 0
         self.errors = []
+        self.gemini_model = os.getenv('GEMINI_MODEL','gemini-2.5-flash')
+        self.model_lookup_done = False
+
+    def newest_gemini_flash(self):
+        """Ask Google which models this key can use and pick the newest stable Flash model.
+
+        Google retires model versions; without this a stale GEMINI_MODEL fails every call.
+        """
+        self.model_lookup_done = True
+        try:
+            response = requests.get('https://generativelanguage.googleapis.com/v1beta/models',headers={'x-goog-api-key':os.environ['GEMINI_API_KEY']},params={'pageSize':1000},timeout=20)
+            response.raise_for_status()
+            names = [m.get('name','').split('/')[-1] for m in response.json().get('models',[]) if 'generateContent' in m.get('supportedGenerationMethods',[])]
+        except (requests.RequestException,ValueError,TypeError,AttributeError):
+            return None
+        flash = [n for n in names if re.fullmatch(r'gemini-\d+(?:\.\d+)?-flash',n)]
+        if flash:
+            return max(flash,key=lambda n: float(re.search(r'\d+(?:\.\d+)?',n).group()))
+        return 'gemini-flash-latest' if 'gemini-flash-latest' in names else None
 
     def extract(self, text, url, now):
         if not text.strip():
@@ -351,7 +370,7 @@ class Extractor:
         prompt = f'Source URL: {url}\nCurrent date: {now.date()}\n<untrusted_page>\n{text[:22000]}\n</untrusted_page>'
         providers = []
         if os.getenv('GEMINI_API_KEY'):
-            model = os.getenv('GEMINI_MODEL','gemini-2.5-flash')
+            model = self.gemini_model
             if not re.fullmatch(r'[a-zA-Z0-9._-]+',model):
                 raise ValueError('Invalid Gemini model name')
             providers.append(('Gemini',f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',{'x-goog-api-key':os.environ['GEMINI_API_KEY']},{'system_instruction':{'parts':[{'text':system}]},'contents':[{'role':'user','parts':[{'text':prompt}]}],'generationConfig':{'responseMimeType':'application/json','temperature':0}}))
@@ -360,26 +379,39 @@ class Extractor:
         # Gemini's free tier allows about 10 requests a minute, so space calls ~6.5 s apart.
         interval = float(self.config.get('llm_min_interval_seconds', 6.5))
         for name, endpoint, headers, payload in providers:
-            for attempt in range(2):
+            rate_retried = False
+            for _ in range(3):
                 if self.calls >= self.config['max_llm_calls_per_run']:
                     self.errors.append('Extraction request budget reached')
                     return []
                 time.sleep(max(0,interval-(time.monotonic()-self.last_call)))
                 self.calls += 1
                 self.last_call = time.monotonic()
+                code = None
                 try:
                     response = requests.post(endpoint,headers=headers,json=payload,timeout=40)
-                    if response.status_code == 429 and attempt == 0:
+                    code = response.status_code
+                    if code == 429 and not rate_retried:
+                        rate_retried = True
                         time.sleep(float(self.config.get('llm_rate_limit_backoff_seconds', 20)))
                         continue  # One retry after a rate-limit response.
+                    if code == 404 and name == 'Gemini' and not self.model_lookup_done:
+                        replacement = self.newest_gemini_flash()
+                        if replacement and replacement != self.gemini_model:
+                            LOG.warning('Gemini model %s unavailable; switching to %s',self.gemini_model,replacement)
+                            self.errors.append(f'Gemini model {self.gemini_model} unavailable; used {replacement}')
+                            self.gemini_model = replacement
+                            endpoint = f'https://generativelanguage.googleapis.com/v1beta/models/{replacement}:generateContent'
+                            continue
                     response.raise_for_status()
                     break
                 except requests.RequestException as exc:
-                    code = getattr(getattr(exc,'response',None),'status_code',None)
+                    code = code or getattr(getattr(exc,'response',None),'status_code',None)
                     response = None
                     break
             if response is None:
-                self.errors.append(name+(' rate limit reached' if code == 429 else ' extraction unavailable'))
+                # Report only the status code: response bodies may echo request details.
+                self.errors.append(name+(' rate limit reached' if code == 429 else f' extraction unavailable (HTTP {code})' if code else ' extraction unavailable (network error)'))
                 continue
             try:
                 body = response.json()
@@ -402,7 +434,7 @@ class Extractor:
                 atomic_json(path,accepted)
                 return accepted
             except (requests.RequestException,ValueError,KeyError,IndexError,TypeError):
-                self.errors.append(name+' extraction unavailable')
+                self.errors.append(name+' returned unreadable output')
         return []
 
 
