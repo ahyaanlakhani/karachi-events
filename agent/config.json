@@ -3,13 +3,16 @@
   "horizon_days": 120,
   "max_searches_per_run": 8,
   "monthly_search_credits": 300,
-  "max_pages_per_run": 40,
-  "max_llm_calls_per_run": 20,
+  "max_pages_per_run": 60,
+  "max_llm_calls_per_run": 30,
+  "llm_min_interval_seconds": 6.5,
+  "llm_rate_limit_backoff_seconds": 20,
   "request_timeout_seconds": 18,
   "listing_urls": [
     "https://www.eventbrite.com/d/pakistan--karachi/all-events/",
     "https://www.eventbrite.com/b/pakistan--karachi/science-and-tech/",
     "https://www.eventbrite.com/d/online/artificial-intelligence/",
+    "https://www.eventbrite.com/d/online/machine-learning/",
     "https://gdg.community.dev/gdg-kolachi/"
   ],
   "event_urls": [],
@@ -22,5 +25,17 @@
     "site:linkedin.com/posts Karachi AI sustainability event registration {month}",
     "site:facebook.com/events Karachi technology university workshop {month}",
     "online free AI agents machine learning sustainability webinar Pakistan {month}"
+  ],
+  "free_queries": [
+    "Karachi AI event {month}",
+    "Karachi hackathon {month}",
+    "Karachi agentic AI workshop {month}",
+    "Karachi sustainability climate event {month}",
+    "NED University event {month}",
+    "FAST NUCES Karachi event {month}",
+    "IBA Karachi event {month}",
+    "Habib University event {month}",
+    "AI Tinkerers Karachi {month}",
+    "online LangGraph CrewAI MCP agent workshop {month}"
   ]
 }

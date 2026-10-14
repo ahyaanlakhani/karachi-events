@@ -3,9 +3,9 @@ import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from unittest.mock import Mock, patch
+from unittest.mock import MagicMock, Mock, patch
 
-from agent.radar import (Budget, Extractor, Fetcher, atomic_json, canonical_url,
+from agent.radar import (Budget, Extractor, Fetcher, atomic_json, canonical_url, clean, discover,
                          jsonld_events, merge_events, normalize_event, public_url,
                          read_json, retain_prior, run, verify)
 
@@ -202,6 +202,48 @@ class BudgetAndPipelineTests(unittest.TestCase):
         post.return_value.json.return_value = {'candidates':[{'content':{'parts':[{'text':json.dumps({'events':[raw(date_evidence='10 October 2026')]})}]}}]}
         with tempfile.TemporaryDirectory() as directory:
             self.assertEqual(Extractor(config(),Path(directory)).extract('No date here',URL,NOW),[])
+
+
+class MergedImprovementTests(unittest.TestCase):
+    def test_clean_undoes_double_escaping_and_decorative_unicode(self):
+        self.assertEqual(clean('The AI\\u2011Built &amp; 𝐁𝐨𝐥𝐝 Co'),'The AI‐Built & Bold Co')
+
+    def test_stale_recurring_series_rejected(self):
+        self.assertIsNone(normalize_event(raw(start='2025-06-07T10:00:00+05:00',end='2027-11-01T10:00:00+05:00'),NOW))
+        # A genuine multi-day event that starts in the future is kept.
+        self.assertIsNotNone(normalize_event(raw(start='2026-10-10T10:00:00+05:00',end='2026-10-14T18:00:00+05:00'),NOW))
+
+    def test_slow_download_aborted_by_deadline(self):
+        fetcher = Fetcher(timeout=2,deadline=0)
+        response = MagicMock(is_redirect=False,headers={'Content-Type':'text/html'},encoding='utf-8')
+        response.iter_content.return_value = iter([b'a',b'b'])
+        response.__enter__.return_value = response
+        with patch('agent.radar.public_url',return_value=URL), patch.object(fetcher.session,'get',return_value=response):
+            with self.assertRaisesRegex(ValueError,'too slow'):
+                fetcher.request(URL)
+
+    @patch.dict('os.environ',{'GEMINI_API_KEY':'test-key'},clear=True)
+    @patch('agent.radar.time.sleep')
+    @patch('agent.radar.requests.post')
+    def test_rate_limit_retried_once(self,post,sleep):
+        limited = Mock(status_code=429)
+        ok = Mock(status_code=200)
+        ok.json.return_value = {'candidates':[{'content':{'parts':[{'text':json.dumps({'events':[raw(date_evidence='10 October 2026')]})}]}}]}
+        post.side_effect = [limited,ok]
+        with tempfile.TemporaryDirectory() as directory:
+            results = Extractor(config(),Path(directory)).extract('AI workshop on 10 October 2026',URL,NOW)
+        self.assertEqual(len(results),1)
+        self.assertEqual(post.call_count,2)
+        self.assertIn(20.0,[c.args[0] for c in sleep.call_args_list])
+
+    @patch.dict('os.environ',{},clear=True)
+    def test_free_search_used_without_tavily_key(self):
+        warnings = []
+        with patch('agent.radar.free_search',return_value=[(URL,'AI workshop snippet')]) as search:
+            candidates,_ = discover(dict(config(),queries=['AI {month}'],free_queries=['Karachi {month}']),Mock(),Mock(),NOW,warnings)
+        self.assertEqual(search.call_args.args[0],['AI {month}','Karachi {month}'])
+        self.assertEqual(candidates[URL],'AI workshop snippet')
+        self.assertTrue(any('free web search' in w for w in warnings))
 
 
 if __name__ == '__main__':

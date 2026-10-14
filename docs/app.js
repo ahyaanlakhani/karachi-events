@@ -6,6 +6,18 @@ const localDate = date => new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Karac
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function safeURL(value) { try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) && !u.username && !u.password ? u.href : ''; } catch { return ''; } }
 const icon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+function calendarURL(event) {
+  const stamp = d => new Date(d).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+  const day = d => localDate(d).replace(/-/g,'');
+  const allDay = event.time_known === false;
+  const end = event.end || new Date(new Date(event.start).getTime() + 2*3600000).toISOString();
+  const next = new Date(new Date(event.end || event.start).getTime() + 86400000);
+  const params = new URLSearchParams({action:'TEMPLATE', text:event.title,
+    dates: allDay ? `${day(event.start)}/${day(next)}` : `${stamp(event.start)}/${stamp(end)}`,
+    details: `${event.description || ''}\n\n${safeURL(event.source_url)}`,
+    location: event.format === 'online' ? 'Online' : event.venue || 'Karachi'});
+  return 'https://calendar.google.com/calendar/render?' + params;
+}
 const tagClasses = {'AI/ML':'tag-ai', Agents:'tag-agents', Sustainability:'tag-sustainability', Students:'tag-students'};
 function card(event) {
   const demo = state.mode === 'demo';
@@ -17,7 +29,7 @@ function card(event) {
   return `<article class="event-card">
     <div class="card-top"><div class="date-tile"><div class="date-box"><span>${pkt(event.start,{month:'short'})}</span><strong>${pkt(event.start,{day:'2-digit'})}</strong></div><div class="date-meta">${pkt(event.start,{weekday:'long'})}<span>${event.time_known === false ? 'Time to be confirmed' : pkt(event.start,{hour:'numeric',minute:'2-digit',hour12:true})+' PKT'}</span></div></div>${newThisWeek ? '<span class="new-badge">New this week</span>' : ''}</div>
     <h3>${escapeHTML(event.title)}</h3><p class="organizer">${escapeHTML(event.organizer || 'Organizer not listed')}</p>
-    <div class="event-meta"><span class="meta-line">${icon}${escapeHTML(event.format === 'online' ? 'Online' : event.venue || 'Karachi · venue TBC')}</span><span class="meta-line">${escapeHTML(event.cost || 'Cost not listed')}</span></div>
+    <div class="event-meta"><span class="meta-line">${icon}${escapeHTML(event.format === 'online' ? 'Online' : event.venue || 'Karachi · venue TBC')}</span><span class="meta-line">${escapeHTML(event.cost || 'Cost not listed')}</span>${demo ? '' : `<a class="meta-line" href="${escapeHTML(calendarURL(event))}" target="_blank" rel="noopener noreferrer">+ Add to calendar</a>`}</div>
     <p class="description">${escapeHTML(event.description)}</p><div class="tags">${categoryTags}${event.student_only ? '<span class="tag tag-students">Students only</span>' : ''}</div>
     <div class="card-bottom"><div class="source-info"><span class="verification ${verified && !demo ? 'verified' : ''}">${demo ? '◇ SAMPLE EVENT' : verified ? '✓ SOURCE VERIFIED' : '◇ UNVERIFIED'}</span>${source && !demo ? `<a href="${escapeHTML(source)}" target="_blank" rel="noopener noreferrer">${escapeHTML(event.source_name)}</a>` : `<span style="display:block;margin-top:3px">${escapeHTML(event.source_name)}</span>`}</div>${demo || !registration ? '<button class="register" disabled>Sample event</button>' : `<a class="register" href="${escapeHTML(registration)}" target="_blank" rel="noopener noreferrer">${event.registration_url ? 'Register' : 'View event'}</a>`}</div>
     ${!demo ? `<details class="evidence"><summary>Evidence · ${Number(event.confidence)||0}/100</summary><p>${escapeHTML(event.verification_reason)}<br>Last checked: ${event.last_checked ? pkt(event.last_checked,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+' PKT' : 'Not checked'}</p></details>` : ''}
