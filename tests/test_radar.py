@@ -236,6 +236,41 @@ class MergedImprovementTests(unittest.TestCase):
         self.assertEqual(post.call_count,2)
         self.assertIn(20.0,[c.args[0] for c in sleep.call_args_list])
 
+    @patch.dict('os.environ',{'GEMINI_API_KEY':'test-key','GEMINI_MODEL':'gemini-2.5-flash'},clear=True)
+    @patch('agent.radar.time.sleep')
+    @patch('agent.radar.requests.get')
+    @patch('agent.radar.requests.post')
+    def test_retired_gemini_model_replaced_with_newest_flash(self,post,get,_sleep):
+        get.return_value.json.return_value = {'models':[
+            {'name':'models/gemini-2.5-flash','supportedGenerationMethods':['generateContent']},
+            {'name':'models/gemini-3.5-flash','supportedGenerationMethods':['generateContent']},
+            {'name':'models/gemini-3.5-flash-lite','supportedGenerationMethods':['generateContent']},
+            {'name':'models/gemini-4-pro','supportedGenerationMethods':['generateContent']},
+            {'name':'models/text-embedding-004','supportedGenerationMethods':['embedContent']}]}
+        retired = Mock(status_code=404)
+        ok = Mock(status_code=200)
+        ok.json.return_value = {'candidates':[{'content':{'parts':[{'text':json.dumps({'events':[raw(date_evidence='10 October 2026')]})}]}}]}
+        post.side_effect = [retired,ok]
+        with tempfile.TemporaryDirectory() as directory:
+            extractor = Extractor(config(),Path(directory))
+            results = extractor.extract('AI workshop on 10 October 2026',URL,NOW)
+        self.assertEqual(len(results),1)
+        self.assertIn('/models/gemini-3.5-flash:generateContent',post.call_args.args[0])
+        self.assertEqual(extractor.gemini_model,'gemini-3.5-flash')
+
+    @patch.dict('os.environ',{'GEMINI_API_KEY':'test-key'},clear=True)
+    @patch('agent.radar.time.sleep')
+    @patch('agent.radar.requests.post')
+    def test_http_failure_reports_status_code(self,post,_sleep):
+        import requests
+        failed = Mock(status_code=400)
+        failed.raise_for_status.side_effect = requests.HTTPError(response=failed)
+        post.return_value = failed
+        with tempfile.TemporaryDirectory() as directory:
+            extractor = Extractor(config(),Path(directory))
+            extractor.extract('AI workshop on 10 October 2026',URL,NOW)
+        self.assertIn('Gemini extraction unavailable (HTTP 400)',extractor.errors)
+
     @patch.dict('os.environ',{},clear=True)
     def test_free_search_used_without_tavily_key(self):
         warnings = []
