@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-14T16:41:40.212654+00:00",
+  "generated_at": "2026-10-14T16:50:27.537607+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -27,7 +27,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/316285009"
       ],
@@ -56,9 +56,39 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-pd3q"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "0237108bef22fee5",
+      "title": "Global AI Impact Congress 2026",
+      "start": "2026-10-21T09:00:00+05:00",
+      "end": null,
+      "time_known": true,
+      "venue": "Karachi, Pakistan, Islamabad, Pakistan, Karachi, SD, PK",
+      "format": "in-person",
+      "organizer": "Pro AI Global - Global AI Community",
+      "description": "Exciting Announcement: Global AI Impact Congress 2026 – Pakistan Edition🌍 We're excited to announce Pakistan's premier 4-day AI leadership journey! Bringing together AI leaders, innovators, corporates, academia, and ecosystem stakeholders for an unprecedented celebration of Leadership. Innovation.",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://allevents.in/karachi/global-ai-impact-congress-2026/200030468358525",
+      "source_name": "allevents.in",
+      "registration_url": "https://allevents.in/karachi/global-ai-impact-congress-2026/200030468358525",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "sources": [
+        "https://allevents.in/karachi/global-ai-impact-congress-2026/200030468358525",
+        "https://happeningnext.com/event/global-ai-impact-congress-2026-eid3a0dwavwcd"
       ],
       "extraction": "jsonld"
     },
@@ -85,7 +115,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-14T07:44:56.758582+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/316843903"
       ],
@@ -114,7 +144,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -143,7 +173,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -172,9 +202,69 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-np4o"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "5e9db2984430a379",
+      "title": "GITECH AI Pakistan 2026 (3rd Edition)",
+      "start": "2026-10-27T11:00:00+05:00",
+      "end": "2026-10-28T19:00:00+05:00",
+      "time_known": true,
+      "venue": "Hall 5, Karachi Expo Centre, Main University Road, Karachi, PK",
+      "format": "in-person",
+      "organizer": "Global Enterprise",
+      "description": "GITECH AI Pakistan 2026 — 3rd Edition is Officially Announced Karachi is getting ready for two days of technology, AI, data, cybersecurity, and digital transformation. October 27–28, 2026 Hall 5, Karachi Expo Centre 11:00 AM – 7:00 PM FREE ENTRY Why Attend? Connect with industry leaders and decision-makers Explore the latest AI, Data & Smart Techno",
+      "categories": [
+        "AI/ML",
+        "Emerging Tech",
+        "Students"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition",
+      "source_name": "gitech.zunaro.pk",
+      "registration_url": "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "sources": [
+        "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "2407a6aa36c42fda",
+      "title": "AI Tinkerers Karachi - October Demo Meetup · Saturday, October 31, 2026",
+      "start": "2026-10-31T14:00:00+05:00",
+      "end": "2026-10-31T17:00:00+05:00",
+      "time_known": true,
+      "venue": "Private venue, Karachi",
+      "format": "in-person",
+      "organizer": "AI Tinkerers - Karachi",
+      "description": "Spend Saturday afternoon exploring hands-on AI demos and walkthroughs, asking builders how they made their systems work, and meeting peers who are actively shipping AI software. AI Tinkerers Karachi’s first meetup of 2026 brings engineers, researchers, and creative technologists together for ...",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026",
+      "source_name": "karachi.aitinkerers.org",
+      "registration_url": "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "sources": [
+        "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026"
       ],
       "extraction": "jsonld"
     },
@@ -201,7 +291,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
@@ -230,7 +320,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -259,7 +349,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -288,7 +378,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:41:40.212654+00:00",
+      "last_checked": "2026-10-14T16:50:27.537607+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],

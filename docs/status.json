@@ -1,19 +1,23 @@
 {
   "state": "partial",
-  "last_attempt": "2026-10-14T16:41:40.212654+00:00",
-  "last_success": "2026-10-14T16:41:40.212654+00:00",
-  "message": "10 upcoming events",
+  "last_attempt": "2026-10-14T16:50:27.537607+00:00",
+  "last_success": "2026-10-14T16:50:27.537607+00:00",
+  "message": "13 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
     "Eventbrite: event page unavailable",
+    "Extraction request budget reached",
     "Facebook: event page unavailable",
-    "Gemini extraction unavailable",
+    "Gemini extraction unavailable (HTTP 503)",
+    "Gemini extraction unavailable (network error)",
+    "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
+    "Gemini rate limit reached",
+    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
-    "ieec.neduet.edu.pk: event page unavailable",
     "instagram.com: event page unavailable",
-    "nascon.com.pk: event page unavailable"
+    "spaceappschallenge.org: event page unavailable"
   ],
-  "pages_checked": 48,
-  "llm_calls": 28,
-  "search_credits_reserved": 64
+  "pages_checked": 36,
+  "llm_calls": 30,
+  "search_credits_reserved": 72
 }
