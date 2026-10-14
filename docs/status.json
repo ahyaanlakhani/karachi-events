@@ -1,19 +1,17 @@
 {
   "state": "partial",
-  "last_attempt": "2026-10-13T09:31:16.113329+00:00",
-  "last_success": "2026-10-13T09:31:16.113329+00:00",
-  "message": "12 upcoming events",
+  "last_attempt": "2026-10-14T07:44:56.758582+00:00",
+  "last_success": "2026-10-14T07:44:56.758582+00:00",
+  "message": "11 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
+    "Eventbrite: event page unavailable",
     "Facebook: event page unavailable",
     "Gemini extraction unavailable",
-    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
-    "dev.events: event page unavailable",
-    "instagram.com: event page unavailable",
-    "medium.com: event page unavailable"
+    "instagram.com: event page unavailable"
   ],
-  "pages_checked": 28,
-  "llm_calls": 19,
-  "search_credits_reserved": 48
+  "pages_checked": 37,
+  "llm_calls": 9,
+  "search_credits_reserved": 56
 }
