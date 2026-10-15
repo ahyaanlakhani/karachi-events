@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-14T16:50:27.537607+00:00",
+  "generated_at": "2026-10-15T07:32:11.348759+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -27,8 +27,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-08T09:09:07.776293+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316285009",
         "https://www.meetup.com/lfdt-pakistan/events/316285009"
       ],
       "extraction": "jsonld"
@@ -56,7 +57,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-pd3q"
       ],
@@ -85,7 +86,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://allevents.in/karachi/global-ai-impact-congress-2026/200030468358525",
         "https://happeningnext.com/event/global-ai-impact-congress-2026-eid3a0dwavwcd"
@@ -115,8 +116,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-14T07:44:56.758582+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316843903",
         "https://www.meetup.com/lfdt-pakistan/events/316843903"
       ],
       "extraction": "jsonld"
@@ -144,7 +146,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -173,7 +175,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -202,7 +204,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-np4o"
       ],
@@ -233,9 +235,38 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "2770d416d8850ab5",
+      "title": "Measuring Ledgers With The Blockchain Decentralisation Index Lab",
+      "start": "2026-10-29T20:00:00+05:00",
+      "end": "2026-10-29T21:00:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "LFDT Pakistan",
+      "description": "The new Blockchain Decentralisation Index Lab is an open source tool kit for measuring the decentralisation of distributed ledgers, layer by layer — consensus, tokenomics, network, software, and beyond. The lab develops and maintains a suite of open source tools that collect data from live blockchain systems, parse it into a common format, and comp",
+      "categories": [
+        "Emerging Tech"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316859622",
+      "source_name": "Meetup",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
+      "confidence": 55,
+      "first_seen": "2026-10-15T07:32:11.348759+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
+      "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316859622"
       ],
       "extraction": "jsonld"
     },
@@ -250,7 +281,8 @@
       "organizer": "AI Tinkerers - Karachi",
       "description": "Spend Saturday afternoon exploring hands-on AI demos and walkthroughs, asking builders how they made their systems work, and meeting peers who are actively shipping AI software. AI Tinkerers Karachi’s first meetup of 2026 brings engineers, researchers, and creative technologists together for ...",
       "categories": [
-        "AI/ML"
+        "AI/ML",
+        "Emerging Tech"
       ],
       "cost": "Free",
       "is_free": true,
@@ -262,7 +294,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026"
       ],
@@ -291,7 +323,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
@@ -320,7 +352,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -349,7 +381,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -378,7 +410,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-14T16:50:27.537607+00:00",
+      "last_checked": "2026-10-15T07:32:11.348759+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
