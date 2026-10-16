@@ -1,21 +1,21 @@
 {
   "state": "partial",
-  "last_attempt": "2026-10-15T07:32:11.348759+00:00",
-  "last_success": "2026-10-15T07:32:11.348759+00:00",
-  "message": "14 upcoming events",
+  "last_attempt": "2026-10-16T07:17:27.456081+00:00",
+  "last_success": "2026-10-16T07:17:27.456081+00:00",
+  "message": "19 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
-    "Facebook: event page unavailable",
-    "Free web search unavailable",
+    "Eventbrite: event page unavailable",
+    "Extraction request budget reached",
     "Gemini extraction unavailable (HTTP 503)",
-    "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
     "Gemini rate limit reached",
     "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
-    "instagram.com: event page unavailable"
+    "instagram.com: event page unavailable",
+    "redmoneyevents.com: event page unavailable"
   ],
-  "pages_checked": 46,
-  "llm_calls": 24,
-  "search_credits_reserved": 80
+  "pages_checked": 49,
+  "llm_calls": 30,
+  "search_credits_reserved": 88
 }
