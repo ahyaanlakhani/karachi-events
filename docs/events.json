@@ -1,14 +1,44 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-16T07:17:27.456081+00:00",
+  "generated_at": "2026-10-17T07:01:24.976257+00:00",
   "timezone": "Asia/Karachi",
   "events": [
+    {
+      "id": "4b90657630cbc567",
+      "title": "Prompt Engineering: Get Better Results from AI Free Workshop",
+      "start": "2026-10-17T14:00:00+05:00",
+      "end": null,
+      "time_known": true,
+      "venue": "Karachi",
+      "format": "in-person",
+      "organizer": "",
+      "description": "A workshop focused on prompt engineering techniques to achieve better results from artificial intelligence tools.",
+      "categories": [
+        "AI/ML",
+        "Emerging Tech"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://allevents.in/karachi/technology",
+      "source_name": "allevents.in",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://allevents.in/karachi/technology"
+      ],
+      "extraction": "llm"
+    },
     {
       "id": "17c61614a82b60d8",
       "title": "AWS Hands-On Workshop: Learn by Building",
       "start": "2026-10-17T20:00:00+05:00",
-      "end": null,
+      "end": "2026-10-17T22:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -27,9 +57,67 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/aws-ug-karachi/events/316991714"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "26868f11873715d8",
+      "title": "MERN Stack: Build Full E-Commerce Web Apps Free Workshop",
+      "start": "2026-10-18T14:00:00+05:00",
+      "end": "2026-10-18T15:00:00+05:00",
+      "time_known": true,
+      "venue": "Karachi",
+      "format": "in-person",
+      "organizer": "",
+      "description": "A technical session focused on building full e-commerce web applications using the MERN technology stack.",
+      "categories": [
+        "Emerging Tech"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://allevents.in/karachi/technology",
+      "source_name": "allevents.in",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://allevents.in/karachi/technology"
+      ],
+      "extraction": "llm"
+    },
+    {
+      "id": "ff424cf5aaeb44d6",
+      "title": "Climate Psychology Workshop",
+      "start": "2026-10-18T16:00:00+05:00",
+      "end": "2026-10-18T18:00:00+05:00",
+      "time_known": true,
+      "venue": "Karachi, Pakistan, Islamabad, Pakistan, Karachi, SD, PK",
+      "format": "in-person",
+      "organizer": "Green Legacy Alliance",
+      "description": "Green Legacy Alliance is organizing an engaging online workshop on Climate Psychology, “Climate Change is Personal: The Human Psychology Behind a Global Crisis.” Join us to explore the psychology behind the climate crisis, understand how environmental challenges shape human behaviour and emotions,",
+      "categories": [
+        "Sustainability"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://allevents.in/karachi/climate-psychology-workshop/200030823077939",
+      "source_name": "allevents.in",
+      "registration_url": "https://allevents.in/karachi/climate-psychology-workshop/200030823077939",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://allevents.in/karachi/climate-psychology-workshop/200030823077939"
       ],
       "extraction": "jsonld"
     },
@@ -56,11 +144,69 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://allevents.in/karachi/global-ai-impact-congress-2026/200030468358525"
       ],
       "extraction": "jsonld"
+    },
+    {
+      "id": "0237108bef22fee5",
+      "title": "Global AI Impact Congress 2026",
+      "start": "2026-10-21T09:00:00+05:00",
+      "end": "2026-10-21T12:00:00+05:00",
+      "time_known": true,
+      "venue": "Karachi, Pakistan, Islamabad, Pakistan, Karachi, SD, PK",
+      "format": "in-person",
+      "organizer": "StungEvents.com",
+      "description": "The 2026 Global AI Impact Congress returns to Karachi, bringing a wide-ranging focus to the conversation around artificial intelligence and its practical applications in the modern era. Scheduled for October 21, 2026, this congress serves as a major forum for industry professionals, developers, and observers to examine current developments in the f",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://stungevents.com/event/global-ai-impact-congress-2026-karachi-2026-10-21-68358525",
+      "source_name": "stungevents.com",
+      "registration_url": "https://stungevents.com/event/global-ai-impact-congress-2026-karachi-2026-10-21-68358525",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://stungevents.com/event/global-ai-impact-congress-2026-karachi-2026-10-21-68358525"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "0237108bef22fee5",
+      "title": "Global AI Impact Congress 2026",
+      "start": "2026-10-21T09:00:00+05:00",
+      "end": null,
+      "time_known": true,
+      "venue": "Karachi, Pakistan",
+      "format": "in-person",
+      "organizer": "",
+      "description": "A congress gathering professionals in Karachi to explore the global impact of artificial intelligence.",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://allevents.in/karachi/technology",
+      "source_name": "allevents.in",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://allevents.in/karachi/technology"
+      ],
+      "extraction": "llm"
     },
     {
       "id": "1f6d47497ef93c49",
@@ -85,7 +231,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-14T07:44:56.758582+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/316843903"
       ],
@@ -114,7 +260,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -143,7 +289,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -172,7 +318,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/women-np4o"
       ],
@@ -182,7 +328,7 @@
       "id": "4f8a92bbedf1a642",
       "title": "DevFest 2026 Ahlen ONLINE",
       "start": "2026-10-24T15:00:00+05:00",
-      "end": null,
+      "end": "2026-10-24T16:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -202,17 +348,47 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/developer-group-ahlen/events/316843216"
       ],
       "extraction": "jsonld"
     },
     {
+      "id": "bd78b86fa955cf05",
+      "title": "Smart Solution of a Green Future: AI in Ecosystem & Climate Action 2026",
+      "start": "2026-10-27T00:00:00+05:00",
+      "end": "2026-10-29T00:00:00+05:00",
+      "time_known": false,
+      "venue": "ICCBS, Karachi",
+      "format": "in-person",
+      "organizer": "",
+      "description": "An international conference exploring AI-driven solutions for ecosystems and climate action.",
+      "categories": [
+        "AI/ML",
+        "Sustainability"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.facebook.com/events/department-of-chemistry-faculty-of-science-federal-urdu-university-of-arts-scien/-international-conference-alertsmart-solution-of-a-green-future-ai-in-ecosystem-/1982146665767634",
+      "source_name": "Facebook",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The event page could not be rechecked. Details may come from search results or an earlier page; confirm them with the organizer.",
+      "confidence": 25,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://www.facebook.com/events/department-of-chemistry-faculty-of-science-federal-urdu-university-of-arts-scien/-international-conference-alertsmart-solution-of-a-green-future-ai-in-ecosystem-/1982146665767634"
+      ],
+      "extraction": "llm"
+    },
+    {
       "id": "28e7649aa7e22dbe",
       "title": "3 Hours to Research Intelligence: Build Your First AI Agent",
       "start": "2026-10-27T02:00:00+05:00",
-      "end": null,
+      "end": "2026-10-27T03:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -232,7 +408,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316510562"
       ],
@@ -263,7 +439,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition"
       ],
@@ -292,7 +468,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-15T07:32:11.348759+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/316859622"
       ],
@@ -302,7 +478,7 @@
       "id": "4c72a0f899ec643f",
       "title": "ZK Learning Group: Quantum resistance and ZKP",
       "start": "2026-10-29T22:00:00+05:00",
-      "end": null,
+      "end": "2026-10-29T23:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -321,7 +497,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/316802725"
       ],
@@ -331,7 +507,7 @@
       "id": "c4bb6b92a9a9c2f3",
       "title": "Paid By Monday: Build a Side Hustle with AI in One Weekend",
       "start": "2026-10-30T03:00:00+05:00",
-      "end": null,
+      "end": "2026-10-30T04:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -350,7 +526,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316956953"
       ],
@@ -358,17 +534,16 @@
     },
     {
       "id": "2407a6aa36c42fda",
-      "title": "AI Tinkerers Karachi - October Demo Meetup · Saturday, October 31, 2026",
+      "title": "AI Tinkerers Karachi - October Demo Meetup",
       "start": "2026-10-31T14:00:00+05:00",
       "end": "2026-10-31T17:00:00+05:00",
       "time_known": true,
       "venue": "Private venue, Karachi",
       "format": "in-person",
       "organizer": "AI Tinkerers - Karachi",
-      "description": "Spend Saturday afternoon exploring hands-on AI demos and walkthroughs, asking builders how they made their systems work, and meeting peers who are actively shipping AI software. AI Tinkerers Karachi’s first meetup of 2026 brings engineers, researchers, and creative technologists together for ...",
+      "description": "About this meetup AI Tinkerers is a global community of builders, engineers, and researchers building and shipping with AI. We are meeting in Karachi on Saturday, October 31, 2026, for an afternoon of live demos and practical conversations about building and ...",
       "categories": [
-        "AI/ML",
-        "Emerging Tech"
+        "AI/ML"
       ],
       "cost": "Free",
       "is_free": true,
@@ -380,7 +555,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026"
       ],
@@ -390,7 +565,7 @@
       "id": "7614e08370889669",
       "title": "How to Use AI to Build Your Personal Brand in 2026",
       "start": "2026-11-03T04:00:00+05:00",
-      "end": null,
+      "end": "2026-11-03T05:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -409,11 +584,40 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316957835"
       ],
       "extraction": "jsonld"
+    },
+    {
+      "id": "ea2c0a0adf45c125",
+      "title": "International Conference on Sustainable Development Financing and Green Investment",
+      "start": "2026-11-05T00:00:00+05:00",
+      "end": "2026-11-06T00:00:00+05:00",
+      "time_known": false,
+      "venue": "Karachi, Pakistan",
+      "format": "in-person",
+      "organizer": "Not stated",
+      "description": "An international conference focusing on research and advancements in sustainable development financing and green investment.",
+      "categories": [
+        "Sustainability"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://internationalconferencealerts.com/sustainability/pakistan/karachi",
+      "source_name": "internationalconferencealerts.com",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
+      ],
+      "extraction": "llm"
     },
     {
       "id": "e6c9f094af67c72a",
@@ -438,11 +642,41 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
       "extraction": "jsonld"
+    },
+    {
+      "id": "9e1546e3a9bbc66d",
+      "title": "International Conference on Physics and Technology of Sustainable Waste Conversion",
+      "start": "2026-11-07T00:00:00+05:00",
+      "end": "2026-11-08T00:00:00+05:00",
+      "time_known": false,
+      "venue": "Karachi, Pakistan",
+      "format": "in-person",
+      "organizer": "Not stated",
+      "description": "A conference bringing together experts to discuss the physics and technologies behind sustainable waste conversion.",
+      "categories": [
+        "Sustainability",
+        "Emerging Tech"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://internationalconferencealerts.com/sustainability/pakistan/karachi",
+      "source_name": "internationalconferencealerts.com",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
+      ],
+      "extraction": "llm"
     },
     {
       "id": "86bf6363e82acade",
@@ -467,7 +701,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -477,7 +711,7 @@
       "id": "3d464af46c291a98",
       "title": "#9: AI im Coder-Alltag",
       "start": "2026-11-18T23:00:00+05:00",
-      "end": null,
+      "end": "2026-11-19T01:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -496,7 +730,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://www.meetup.com/wordpress-online-meetup-dach/events/316960555"
       ],
@@ -525,11 +759,40 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
       "extraction": "jsonld"
+    },
+    {
+      "id": "918b19676e588272",
+      "title": "Human + AI: Your 5 Year Road Map",
+      "start": "2026-11-20T09:00:00+05:00",
+      "end": "2026-11-20T10:00:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "Snowflake",
+      "description": "Learn where AI is heading in 2027 and beyond, the human skills AI cannot replace, and a roadmap to stay indispensable.",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://www.snowflake.com/data-and-ai-fast-track-webinar-series",
+      "source_name": "snowflake.com",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
+      ],
+      "extraction": "llm"
     },
     {
       "id": "9e13d6816c534b86",
@@ -554,11 +817,70 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-16T07:17:27.456081+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
       "extraction": "jsonld"
+    },
+    {
+      "id": "582bd6aad6af9cea",
+      "title": "AI for Good: How NGOs are Using AI to Solve Real-World Problems",
+      "start": "2026-12-04T09:00:00+05:00",
+      "end": "2026-12-04T10:00:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "Snowflake",
+      "description": "Discover how NGOs leverage data and AI to address critical global challenges ranging from climate action to humanitarian aid.",
+      "categories": [
+        "AI/ML",
+        "Sustainability"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://www.snowflake.com/data-and-ai-fast-track-webinar-series",
+      "source_name": "snowflake.com",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
+      ],
+      "extraction": "llm"
+    },
+    {
+      "id": "6abecdfc0109cc1d",
+      "title": "International Conference on Climate-Adaptable Architecture and Building Design Strategies",
+      "start": "2027-01-30T00:00:00+05:00",
+      "end": "2027-01-31T00:00:00+05:00",
+      "time_known": false,
+      "venue": "Karachi, Pakistan",
+      "format": "in-person",
+      "organizer": "Not stated",
+      "description": "An event centered on climate-adaptable architecture and sustainable strategies in building design.",
+      "categories": [
+        "Sustainability"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://internationalconferencealerts.com/sustainability/pakistan/karachi",
+      "source_name": "internationalconferencealerts.com",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "sources": [
+        "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
+      ],
+      "extraction": "llm"
     }
   ]
 }
