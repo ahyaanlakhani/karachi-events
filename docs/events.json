@@ -1,67 +1,9 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-18T07:17:04.362179+00:00",
+  "generated_at": "2026-10-19T07:53:19.533577+00:00",
   "timezone": "Asia/Karachi",
   "events": [
-    {
-      "id": "26868f11873715d8",
-      "title": "MERN Stack: Build Full E-Commerce Web Apps Free Workshop",
-      "start": "2026-10-18T14:00:00+05:00",
-      "end": "2026-10-18T15:00:00+05:00",
-      "time_known": true,
-      "venue": "Karachi",
-      "format": "in-person",
-      "organizer": "",
-      "description": "A technical session focused on building full e-commerce web applications using the MERN technology stack.",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://allevents.in/karachi/technology",
-      "source_name": "allevents.in",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
-      "confidence": 25,
-      "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-17T07:01:24.976257+00:00",
-      "sources": [
-        "https://allevents.in/karachi/technology"
-      ],
-      "extraction": "llm"
-    },
-    {
-      "id": "ff424cf5aaeb44d6",
-      "title": "Climate Psychology Workshop",
-      "start": "2026-10-18T16:00:00+05:00",
-      "end": "2026-10-18T18:00:00+05:00",
-      "time_known": true,
-      "venue": "Karachi, Pakistan, Islamabad, Pakistan, Karachi, SD, PK",
-      "format": "in-person",
-      "organizer": "Green Legacy Alliance",
-      "description": "Green Legacy Alliance is organizing an engaging online workshop on Climate Psychology, “Climate Change is Personal: The Human Psychology Behind a Global Crisis.” Join us to explore the psychology behind the climate crisis, understand how environmental challenges shape human behaviour and emotions,",
-      "categories": [
-        "Sustainability"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://allevents.in/karachi/climate-psychology-workshop/200030823077939",
-      "source_name": "allevents.in",
-      "registration_url": "https://allevents.in/karachi/climate-psychology-workshop/200030823077939",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
-      "confidence": 90,
-      "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
-      "sources": [
-        "https://allevents.in/karachi/climate-psychology-workshop/200030823077939"
-      ],
-      "extraction": "jsonld"
-    },
     {
       "id": "0237108bef22fee5",
       "title": "Global AI Impact Congress 2026",
@@ -85,7 +27,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://allevents.in/karachi/global-ai-impact-congress-2026/200030468358525",
         "https://happeningnext.com/event/global-ai-impact-congress-2026-eid3a0dwavwcd"
@@ -115,7 +57,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://stungevents.com/event/global-ai-impact-congress-2026-karachi-2026-10-21-68358525"
       ],
@@ -130,7 +72,7 @@
       "venue": "Karachi, Pakistan",
       "format": "in-person",
       "organizer": "",
-      "description": "A congress gathering professionals in Karachi to explore the global impact of artificial intelligence.",
+      "description": "Global AI Impact Congress 2026 convenes in Karachi to discuss artificial intelligence and its impact.",
       "categories": [
         "AI/ML"
       ],
@@ -141,10 +83,10 @@
       "source_name": "allevents.in",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
-      "confidence": 25,
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
+      "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://allevents.in/karachi/technology"
       ],
@@ -173,8 +115,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-14T07:44:56.758582+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316843903",
         "https://www.meetup.com/lfdt-pakistan/events/316843903"
       ],
       "extraction": "jsonld"
@@ -202,7 +145,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -231,7 +174,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -260,7 +203,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/women-np4o"
       ],
@@ -290,7 +233,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.meetup.com/developer-group-ahlen/events/316843216"
       ],
@@ -317,7 +260,7 @@
       "source_name": "instagram.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The event page could not be rechecked. Details may come from search results or an earlier page; confirm them with the organizer.",
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
       "confidence": 25,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
       "last_checked": "2026-10-18T07:17:04.362179+00:00",
@@ -350,7 +293,7 @@
       "verification_reason": "The event page could not be rechecked. Details may come from search results or an earlier page; confirm them with the organizer.",
       "confidence": 25,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.facebook.com/events/department-of-chemistry-faculty-of-science-federal-urdu-university-of-arts-scien/-international-conference-alertsmart-solution-of-a-green-future-ai-in-ecosystem-/1982146665767634"
       ],
@@ -380,7 +323,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316510562"
       ],
@@ -411,7 +354,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition"
       ],
@@ -440,8 +383,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-15T07:32:11.348759+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316859622",
         "https://www.meetup.com/lfdt-pakistan/events/316859622"
       ],
       "extraction": "jsonld"
@@ -469,8 +413,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
+        "https://www.meetup.com/ja-JP/lfdt-pakistan/events/316802725",
         "https://www.meetup.com/lfdt-pakistan/events/316802725"
       ],
       "extraction": "jsonld"
@@ -498,7 +443,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://aiforgood.itu.int/eventcat/webinar"
       ],
@@ -527,7 +472,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316956953"
       ],
@@ -556,7 +501,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026"
       ],
@@ -585,7 +530,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316957835"
       ],
@@ -614,7 +559,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
       ],
@@ -645,7 +590,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.neduet.edu.pk/content/events"
       ],
@@ -674,7 +619,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
@@ -704,7 +649,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
       ],
@@ -733,7 +678,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -762,7 +707,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -791,7 +736,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.meetup.com/wordpress-online-meetup-dach/events/316960555"
       ],
@@ -820,7 +765,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -849,7 +794,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -878,7 +823,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
@@ -907,7 +852,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -936,7 +881,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -966,7 +911,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -995,7 +940,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -1025,7 +970,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -1055,7 +1000,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://www.pim.com.pk/product/agentic-ai-karachi"
       ],
@@ -1084,7 +1029,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-18T07:17:04.362179+00:00",
+      "last_checked": "2026-10-19T07:53:19.533577+00:00",
       "sources": [
         "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
       ],
