@@ -1,38 +1,9 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-10-21T07:46:06.434407+00:00",
+  "generated_at": "2026-10-22T07:41:45.519305+00:00",
   "timezone": "Asia/Karachi",
   "events": [
-    {
-      "id": "1f6d47497ef93c49",
-      "title": "Beyond Permissioning: Bank-Grade Enterprise Blockchain Privacy",
-      "start": "2026-10-21T19:00:00+05:00",
-      "end": "2026-10-21T20:00:00+05:00",
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "LFDT Pakistan",
-      "description": "Join us for a webinar with Zeeve, an LFDT general member, on building Bank-Grade Privacy for Enterprise Blockchain Networks. As regulated institutions move",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://www.meetup.com/lfdt-pakistan/events/316843903",
-      "source_name": "Meetup",
-      "registration_url": "https://www.meetup.com/lfdt-pakistan/events/316843903/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-10-14T07:44:56.758582+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
-      "sources": [
-        "https://www.meetup.com/lfdt-pakistan/events/316843903"
-      ],
-      "extraction": "jsonld"
-    },
     {
       "id": "f976ab7f65a4683c",
       "title": "WDAI: [VIRTUAL] UK Monthly Huddle - October",
@@ -56,7 +27,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/women-18j2"
       ],
@@ -85,7 +56,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/women-728x"
       ],
@@ -114,7 +85,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/women-np4o"
       ],
@@ -202,7 +173,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.meetup.com/developer-group-ahlen/events/316843216"
       ],
@@ -232,11 +203,41 @@
       "verification_reason": "The event page could not be rechecked. Details may come from search results or an earlier page; confirm them with the organizer.",
       "confidence": 25,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.instagram.com/p/DemAkyxDHC5"
       ],
       "extraction": "llm"
+    },
+    {
+      "id": "f05bb7d3e16802c0",
+      "title": "Build and Deploy Your First App Using AI on Microsoft Azure",
+      "start": "2026-10-25T18:00:00+05:00",
+      "end": "2026-10-25T19:00:00+05:00",
+      "time_known": true,
+      "venue": "Karachi, pk",
+      "format": "in-person",
+      "organizer": "Git2Prod - Cloud & DevOps Engineering",
+      "description": "Join this hands-on session to explore how AI can help you build an application and deploy it on Microsoft Azure from a DevOps engineering perspective. Wha",
+      "categories": [
+        "AI/ML",
+        "Emerging Tech"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.meetup.com/karachi-new-technology-meetup-group/events/317036260",
+      "source_name": "Meetup",
+      "registration_url": "https://www.meetup.com/karachi-new-technology-meetup-group/events/317036260/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-10-22T07:41:45.519305+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
+      "sources": [
+        "https://www.meetup.com/karachi-new-technology-meetup-group/events/317036260"
+      ],
+      "extraction": "jsonld"
     },
     {
       "id": "bd78b86fa955cf05",
@@ -292,7 +293,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316510562"
       ],
@@ -307,10 +308,9 @@
       "venue": "Hall 5, Karachi Expo Centre, Main University Road, Karachi, PK",
       "format": "in-person",
       "organizer": "Global Enterprise",
-      "description": "GITECH AI Pakistan 2026 — 3rd Edition is Officially Announced Karachi is getting ready for two days of technology, AI, data, cybersecurity, and digital transformation. October 27–28, 2026 Hall 5, Karachi Expo Centre 11:00 AM – 7:00 PM FREE ENTRY Why Attend? Connect with industry leaders and decision-makers Explore the latest AI, Data & Smart Techno",
+      "description": "📢 Organizer notice GITECH AI Pakistan is organized by its show owner, Global Enterprise · Global Exhibitions — not by Zunaro. Zunaro is the event's official registration partner only: it runs this registration page and the e-tickets, and does not organize GITECH or decide its dates. IMPORTANT ANNOUNCEMENT — GITECH 2027 Please note that the 3rd Edit",
       "categories": [
         "AI/ML",
-        "Emerging Tech",
         "Students"
       ],
       "cost": "Free",
@@ -323,9 +323,38 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://gitech.zunaro.pk/events/f24f0e03-4209-4ba3-b0c6-5836a2366a12/gitech-ai-pakistan-2026-3rd-edition"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "93ece75bca33f919",
+      "title": "How Non-Techies Can Launch Successful Tech Startups",
+      "start": "2026-10-29T03:00:00+05:00",
+      "end": "2026-10-29T04:00:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "Karachi Startup: Idea to IPO",
+      "description": "This event is organized by TechSpeak. Our meetup group is collaborating by promoting this event. This event is FREE to attend! In order to attend, pleas",
+      "categories": [
+        "Emerging Tech"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.meetup.com/karachi-startup-idea-to-ipo/events/mvmqdsyjcnbmc",
+      "source_name": "Meetup",
+      "registration_url": "https://www.meetup.com/karachi-startup-idea-to-ipo/events/mvmqdsyjcnbmc/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-10-22T07:41:45.519305+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
+      "sources": [
+        "https://www.meetup.com/karachi-startup-idea-to-ipo/events/mvmqdsyjcnbmc"
       ],
       "extraction": "jsonld"
     },
@@ -352,9 +381,10 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-15T07:32:11.348759+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
-        "https://www.meetup.com/lfdt-pakistan/events/316859622"
+        "https://www.meetup.com/lfdt-pakistan/events/316859622",
+        "https://www.meetup.com/pl-PL/lfdt-pakistan/events/316859622"
       ],
       "extraction": "jsonld"
     },
@@ -381,9 +411,10 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
-        "https://www.meetup.com/lfdt-pakistan/events/316802725"
+        "https://www.meetup.com/lfdt-pakistan/events/316802725",
+        "https://www.meetup.com/pl-PL/lfdt-pakistan/events/316802725"
       ],
       "extraction": "jsonld"
     },
@@ -410,7 +441,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://aiforgood.itu.int/eventcat/webinar"
       ],
@@ -439,7 +470,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316956953"
       ],
@@ -468,7 +499,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-14T16:50:27.537607+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-meetup-saturday-october-31-2026"
       ],
@@ -497,40 +528,11 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316957835"
       ],
       "extraction": "jsonld"
-    },
-    {
-      "id": "ea2c0a0adf45c125",
-      "title": "International Conference on Sustainable Development Financing and Green Investment",
-      "start": "2026-11-05T00:00:00+05:00",
-      "end": "2026-11-06T00:00:00+05:00",
-      "time_known": false,
-      "venue": "Karachi, Pakistan",
-      "format": "in-person",
-      "organizer": "Not stated",
-      "description": "An international conference focusing on research and advancements in sustainable development financing and green investment.",
-      "categories": [
-        "Sustainability"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://internationalconferencealerts.com/sustainability/pakistan/karachi",
-      "source_name": "internationalconferencealerts.com",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
-      "confidence": 55,
-      "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
-      "sources": [
-        "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
-      ],
-      "extraction": "llm"
     },
     {
       "id": "1e4520fbd593dab8",
@@ -557,9 +559,38 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.neduet.edu.pk/content/events"
+      ],
+      "extraction": "llm"
+    },
+    {
+      "id": "ea2c0a0adf45c125",
+      "title": "International Conference on Sustainable Development Financing and Green Investment",
+      "start": "2026-11-05T00:00:00+05:00",
+      "end": "2026-11-06T00:00:00+05:00",
+      "time_known": false,
+      "venue": "Karachi, Pakistan",
+      "format": "in-person",
+      "organizer": "Not stated",
+      "description": "An international conference focusing on research and advancements in sustainable development financing and green investment.",
+      "categories": [
+        "Sustainability"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://internationalconferencealerts.com/sustainability/pakistan/karachi",
+      "source_name": "internationalconferencealerts.com",
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
+      "first_seen": "2026-10-17T07:01:24.976257+00:00",
+      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "sources": [
+        "https://internationalconferencealerts.com/sustainability/pakistan/karachi"
       ],
       "extraction": "llm"
     },
@@ -586,7 +617,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/lblm1lbj"
       ],
@@ -613,8 +644,8 @@
       "source_name": "internationalconferencealerts.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
       "last_checked": "2026-10-21T07:46:06.434407+00:00",
       "sources": [
@@ -645,7 +676,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -674,7 +705,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
       ],
@@ -703,7 +734,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.meetup.com/wordpress-online-meetup-dach/events/316960555"
       ],
@@ -732,7 +763,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -761,7 +792,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -790,7 +821,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
@@ -819,7 +850,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -848,7 +879,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -878,7 +909,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -907,7 +938,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -937,7 +968,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-10-21T07:46:06.434407+00:00",
+      "last_checked": "2026-10-22T07:41:45.519305+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -993,8 +1024,8 @@
       "source_name": "internationalconferencealerts.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
       "last_checked": "2026-10-21T07:46:06.434407+00:00",
       "sources": [
