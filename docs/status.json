@@ -1,24 +1,26 @@
 {
   "state": "partial",
-  "last_attempt": "2026-10-22T07:41:45.519305+00:00",
-  "last_success": "2026-10-22T07:41:45.519305+00:00",
-  "message": "35 upcoming events",
+  "last_attempt": "2026-10-23T07:39:04.567058+00:00",
+  "last_success": "2026-10-23T07:39:04.567058+00:00",
+  "message": "33 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
-    "Eventbrite: event page unavailable",
+    "Extraction request budget reached",
     "Facebook: event page unavailable",
-    "Free web search unavailable",
     "Gemini extraction unavailable (HTTP 503)",
     "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
     "Gemini rate limit reached",
     "LinkedIn: event page unavailable",
+    "Meetup: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
-    "cyberhackathon.pk: event page unavailable",
-    "instagram.com: event page unavailable"
+    "instagram.com: event page unavailable",
+    "medium.com: event page unavailable",
+    "redmoneyevents.com: event page unavailable",
+    "ticketwala.pk: event page unavailable"
   ],
-  "pages_checked": 40,
-  "llm_calls": 24,
-  "search_credits_reserved": 136
+  "pages_checked": 46,
+  "llm_calls": 30,
+  "search_credits_reserved": 144
 }
