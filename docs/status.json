@@ -1,26 +1,24 @@
 {
   "state": "partial",
-  "last_attempt": "2026-11-02T09:37:13.930040+00:00",
-  "last_success": "2026-11-02T09:37:13.930040+00:00",
-  "message": "28 upcoming events",
+  "last_attempt": "2026-11-03T09:40:25.336416+00:00",
+  "last_success": "2026-11-03T09:40:25.336416+00:00",
+  "message": "27 upcoming events",
   "warnings": [
-    "10times.com: event page unavailable",
     "Eventbrite: discovery page unavailable",
     "Eventbrite: event page unavailable",
     "Extraction request budget reached",
-    "Facebook: event page unavailable",
     "Gemini extraction unavailable (HTTP 503)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
     "Gemini rate limit reached",
-    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
-    "dev.events: event page unavailable",
+    "coderscup26.com: event page unavailable",
     "instagram.com: event page unavailable",
     "internationalconferencealerts.com: event page unavailable",
-    "medium.com: event page unavailable"
+    "techfest-ned.vercel.app: event page unavailable",
+    "x.com: event page unavailable"
   ],
-  "pages_checked": 41,
+  "pages_checked": 49,
   "llm_calls": 30,
-  "search_credits_reserved": 16
+  "search_credits_reserved": 24
 }
