@@ -1,12 +1,12 @@
 {
   "state": "partial",
-  "last_attempt": "2026-11-04T09:25:45.585699+00:00",
-  "last_success": "2026-11-04T09:25:45.585699+00:00",
-  "message": "46 upcoming events",
+  "last_attempt": "2026-11-05T09:35:48.043340+00:00",
+  "last_success": "2026-11-05T09:35:48.043340+00:00",
+  "message": "43 upcoming events",
   "warnings": [
-    "10times.com: event page unavailable",
     "Eventbrite: discovery page unavailable",
     "Extraction request budget reached",
+    "Facebook: event page unavailable",
     "Gemini extraction unavailable (HTTP 503)",
     "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
@@ -14,12 +14,13 @@
     "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
-    "coderscup26.com: event page unavailable",
+    "aihackathon.atomcamp.com: event page unavailable",
     "instagram.com: event page unavailable",
     "internationalconferencealerts.com: event page unavailable",
-    "x.com: event page unavailable"
+    "medium.com: event page unavailable",
+    "spaceappschallenge.org: event page unavailable"
   ],
-  "pages_checked": 53,
+  "pages_checked": 43,
   "llm_calls": 30,
-  "search_credits_reserved": 32
+  "search_credits_reserved": 40
 }
