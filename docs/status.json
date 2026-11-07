@@ -1,21 +1,25 @@
 {
   "state": "partial",
-  "last_attempt": "2026-11-06T09:29:11.408616+00:00",
-  "last_success": "2026-11-06T09:29:11.408616+00:00",
-  "message": "34 upcoming events",
+  "last_attempt": "2026-11-07T08:53:21.344000+00:00",
+  "last_success": "2026-11-07T08:53:21.344000+00:00",
+  "message": "50 upcoming events",
   "warnings": [
+    "10times.com: event page unavailable",
     "Eventbrite: discovery page unavailable",
-    "Eventbrite: event page unavailable",
-    "Free web search unavailable",
+    "Extraction request budget reached",
+    "Facebook: event page unavailable",
     "Gemini extraction unavailable (HTTP 503)",
     "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
+    "Gemini rate limit reached",
+    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
     "coderscup26.com: event page unavailable",
+    "hack-scout-delta.vercel.app: event page unavailable",
     "internationalconferencealerts.com: event page unavailable"
   ],
-  "pages_checked": 57,
-  "llm_calls": 16,
-  "search_credits_reserved": 48
+  "pages_checked": 44,
+  "llm_calls": 30,
+  "search_credits_reserved": 56
 }
