@@ -1,184 +1,9 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-11-08T09:06:26.867263+00:00",
+  "generated_at": "2026-11-09T09:54:19.975940+00:00",
   "timezone": "Asia/Karachi",
   "events": [
-    {
-      "id": "bde7340908b9c93b",
-      "title": "GullHacks",
-      "start": "2026-11-07T22:00:00+05:00",
-      "end": "2026-11-08T22:00:00+05:00",
-      "time_known": true,
-      "venue": "GullHacks",
-      "format": "online",
-      "organizer": "Salisbury University",
-      "description": "About the challenge GullHacks is Salisbury University’s first-ever hackathon, built to help students of any major build real technical skills and become competitive candidates for careers in tech. Whether you’re a first-time hacker or a seasoned builder, our goal is to get you designing, building...",
-      "categories": [
-        "Emerging Tech",
-        "Students"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://gullhacks2026.devpost.com/",
-      "source_name": "gullhacks2026.devpost.com",
-      "registration_url": "https://gullhacks2026.devpost.com/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-11-08T09:06:26.867263+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
-      "sources": [
-        "https://gullhacks2026.devpost.com/"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "51ab68f127c65a3f",
-      "title": "Low-Level Hackathon",
-      "start": "2026-11-08T23:29:00+05:00",
-      "end": null,
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "description": "HACKATHON by International Institute of Information Technology (IIIT), Bangalore via Unstop. Free entry. Online.",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://unstop.com/hackathons/low-level-hackathon-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762854",
-      "source_name": "unstop.com",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
-      "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
-      "sources": [
-        "https://unstop.com/hackathons/low-level-hackathon-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762854"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "1141cff82ad77098",
-      "title": "Health-a-thon 2026: Healthcare Innovation Hackathon",
-      "start": "2026-11-08T23:29:00+05:00",
-      "end": null,
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "Listed on Internshala",
-      "description": "HACKATHON by Listed on Internshala via Internshala. Online.",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://internshala.com/competitions/health-a-thon-2026",
-      "source_name": "internshala.com",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
-      "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
-      "sources": [
-        "https://internshala.com/competitions/health-a-thon-2026"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "1ea8f2bc2c72b216",
-      "title": "EthnoHack",
-      "start": "2026-11-09T04:59:00+05:00",
-      "end": null,
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "ETHCSTWIN",
-      "description": "HACKATHON by ETHCSTWIN via Devpost. Free entry. Online.",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://ethnohack2026.devpost.com/",
-      "source_name": "ethnohack2026.devpost.com",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
-      "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
-      "sources": [
-        "https://ethnohack2026.devpost.com/"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "800447f3a8466cea",
-      "title": "UI/UX Track - NITS Hacks 9.0",
-      "start": "2026-11-09T08:30:00+05:00",
-      "end": null,
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "National Institute of Technology (NIT), Silchar",
-      "description": "HACKATHON by National Institute of Technology (NIT), Silchar via Unstop. Free entry. Online.",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://unstop.com/competitions/uiux-track-nits-hacks-90-nits-hacks-90-national-institute-of-technology-nit-silchar-1794956",
-      "source_name": "unstop.com",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
-      "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
-      "sources": [
-        "https://unstop.com/competitions/uiux-track-nits-hacks-90-nits-hacks-90-national-institute-of-technology-nit-silchar-1794956"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "7f03ae62aba5cb11",
-      "title": "Software Track – NITS Hacks 9.0",
-      "start": "2026-11-09T08:30:00+05:00",
-      "end": null,
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "National Institute of Technology (NIT), Silchar",
-      "description": "HACKATHON by National Institute of Technology (NIT), Silchar via Unstop. Free entry. Online.",
-      "categories": [
-        "Emerging Tech"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://unstop.com/hackathons/software-track-nits-hacks-90-national-institute-of-technology-nit-silchar-1794955",
-      "source_name": "unstop.com",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
-      "first_seen": "2026-11-08T09:06:26.867263+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
-      "sources": [
-        "https://unstop.com/hackathons/software-track-nits-hacks-90-national-institute-of-technology-nit-silchar-1794955"
-      ],
-      "extraction": "jsonld"
-    },
     {
       "id": "f8b985212b3ca135",
       "title": "Agentic AI Conference: Two Free Virtual Days on AI Agents (Nov 9-10)",
@@ -203,7 +28,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-05T09:35:48.043340+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/data-science-dojo-karachi/events/317284177"
       ],
@@ -229,8 +54,8 @@
       "source_name": "internshala.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -258,8 +83,8 @@
       "source_name": "internshala.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -287,8 +112,8 @@
       "source_name": "unstop.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -316,8 +141,8 @@
       "source_name": "unstop.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -348,7 +173,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -374,8 +199,8 @@
       "source_name": "unstop.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -403,8 +228,8 @@
       "source_name": "unstop.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -436,7 +261,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-05T09:35:48.043340+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/aws-sbg-at-univ-of-computer-and-emerging-sciences-karachi/events/317286909"
       ],
@@ -462,8 +287,8 @@
       "source_name": "unstop.com",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-08T09:06:26.867263+00:00",
       "last_checked": "2026-11-08T09:06:26.867263+00:00",
       "sources": [
@@ -494,7 +319,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-05T09:35:48.043340+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317305716"
       ],
@@ -524,7 +349,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-10-26T07:52:53.204227+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/aws-sbg-at-muhammad-ali-jinnah-university/events/317105853"
       ],
@@ -554,9 +379,38 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-26T07:52:53.204227+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317119775"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "f4d7234e02f9f685",
+      "title": "AI Tinkerers Afghanistan — Chapter Introduction & Community Meetup",
+      "start": "2026-11-13T18:30:00+05:00",
+      "end": "2026-11-13T19:30:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "AI Tinkerers - Afganistan",
+      "description": "Meet Afghan AI builders in person for a focused chapter introduction and community meetup. Compare what you’re building, discuss current challenges and interests, meet the organizers, and learn how to contribute to future member-led discussions and demos. ------------------------------- Event details November ...",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://afganistan.aitinkerers.org/p/ai-tinkerers-afghanistan-chapter-introduction-community-meetup",
+      "source_name": "afganistan.aitinkerers.org",
+      "registration_url": "https://afganistan.aitinkerers.org/p/ai-tinkerers-afghanistan-chapter-introduction-community-meetup",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-11-09T09:54:19.975940+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
+      "sources": [
+        "https://afganistan.aitinkerers.org/p/ai-tinkerers-afghanistan-chapter-introduction-community-meetup"
       ],
       "extraction": "jsonld"
     },
@@ -583,9 +437,38 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://luma.com/women-xxo5"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "95552da282b74d1c",
+      "title": "AI Tinkerers Chennai — Inaugural Online Workshop: Understanding Fine-tuning",
+      "start": "2026-11-14T09:30:00+05:00",
+      "end": "2026-11-14T11:30:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "AI Tinkerers - Chennai",
+      "description": "The inaugural session of AI Tinkerers Chennai. Understanding Fine-tuning: a hands-on finance example. Watch a small open model learn a real finance task, live, on a free GPU, and see how to judge whether it actually worked. What we’ll do, in ...",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Free",
+      "is_free": true,
+      "student_only": false,
+      "source_url": "https://chennai.aitinkerers.org/p/ai-tinkerers-chennai-inaugural-online-workshop-understanding-fine-tuning",
+      "source_name": "chennai.aitinkerers.org",
+      "registration_url": "https://chennai.aitinkerers.org/p/ai-tinkerers-chennai-inaugural-online-workshop-understanding-fine-tuning",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-11-09T09:54:19.975940+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
+      "sources": [
+        "https://chennai.aitinkerers.org/p/ai-tinkerers-chennai-inaugural-online-workshop-understanding-fine-tuning"
       ],
       "extraction": "jsonld"
     },
@@ -642,7 +525,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-31T08:29:42.961223+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316991929"
       ],
@@ -672,7 +555,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-06T09:29:11.408616+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/aws-sbg-at-za-bhutto-inst-of-sci-and-tech-univ-karachi/events/317308858"
       ],
@@ -701,7 +584,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/wordpress-online-meetup-dach/events/316960555"
       ],
@@ -730,7 +613,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -759,7 +642,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-02T09:37:13.930040+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317187803"
       ],
@@ -788,7 +671,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -817,7 +700,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
@@ -847,7 +730,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://learningnests.com/AI4Everyone"
       ],
@@ -906,7 +789,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -935,7 +818,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -965,7 +848,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -1053,7 +936,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-02T09:37:13.930040+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.meetup.com/aws-ug-karachi/events/317063802"
       ],
@@ -1082,7 +965,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -1112,7 +995,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-08T09:06:26.867263+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -1197,12 +1080,12 @@
       "student_only": false,
       "source_url": "https://aiseason.tech/",
       "source_name": "aiseason.tech",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
-      "confidence": 25,
+      "registration_url": "https://aiseason.tech/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
       "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-07T08:53:21.344000+00:00",
+      "last_checked": "2026-11-09T09:54:19.975940+00:00",
       "sources": [
         "https://aiseason.tech/"
       ],
