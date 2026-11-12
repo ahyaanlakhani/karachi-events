@@ -1,22 +1,22 @@
 {
   "state": "partial",
-  "last_attempt": "2026-11-11T09:32:11.501930+00:00",
-  "last_success": "2026-11-11T09:32:11.501930+00:00",
-  "message": "35 upcoming events",
+  "last_attempt": "2026-11-12T09:55:07.968570+00:00",
+  "last_success": "2026-11-12T09:55:07.968570+00:00",
+  "message": "36 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
     "Eventbrite: event page unavailable",
     "Facebook: event page unavailable",
+    "Gemini extraction unavailable (HTTP 503)",
     "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
     "Gemini rate limit reached",
+    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
-    "aihackathon.atomcamp.com: event page unavailable",
-    "instagram.com: event page unavailable",
-    "internationalconferencealerts.com: event page unavailable"
+    "instagram.com: event page unavailable"
   ],
-  "pages_checked": 50,
-  "llm_calls": 23,
-  "search_credits_reserved": 88
+  "pages_checked": 41,
+  "llm_calls": 25,
+  "search_credits_reserved": 96
 }
