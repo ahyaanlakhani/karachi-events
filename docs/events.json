@@ -1,197 +1,21 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-11-13T09:39:53.587016+00:00",
+  "generated_at": "2026-11-14T09:03:33.205616+00:00",
   "timezone": "Asia/Karachi",
   "events": [
-    {
-      "id": "68eea6065678cc08",
-      "title": "Live: Breaking an AI-Built App in 30 Minutes — for CTOs and Founders",
-      "start": "2026-11-13T16:30:00+05:00",
-      "end": "2026-11-13T17:15:00+05:00",
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "Luxembourg Vibe-Code & Hack Apps",
-      "description": "Your team releases faster with AI coding tools. But who checks what those tools leave behind? In this 45-minute online session I will take an app built wi",
-      "categories": [
-        "AI/ML",
-        "Emerging Tech"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://www.meetup.com/luxembourg-vibe-coding-meetup-group/events/317009427",
-      "source_name": "Meetup",
-      "registration_url": "https://www.meetup.com/luxembourg-vibe-coding-meetup-group/events/317009427/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-11-11T09:32:11.501930+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
-      "sources": [
-        "https://www.meetup.com/luxembourg-vibe-coding-meetup-group/events/317009427"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "f4d7234e02f9f685",
-      "title": "AI Tinkerers Afghanistan — Chapter Introduction & Community Meetup",
-      "start": "2026-11-13T18:30:00+05:00",
-      "end": "2026-11-13T19:30:00+05:00",
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "AI Tinkerers - Afganistan",
-      "description": "Meet Afghan AI builders in person for a focused chapter introduction and community meetup. Compare what you’re building, discuss current challenges and interests, meet the organizers, and learn how to contribute to future member-led discussions and demos. ------------------------------- Event details November ...",
-      "categories": [
-        "AI/ML"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://afganistan.aitinkerers.org/p/ai-tinkerers-afghanistan-chapter-introduction-community-meetup",
-      "source_name": "afganistan.aitinkerers.org",
-      "registration_url": "https://afganistan.aitinkerers.org/p/ai-tinkerers-afghanistan-chapter-introduction-community-meetup",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-11-09T09:54:19.975940+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
-      "sources": [
-        "https://afganistan.aitinkerers.org/p/ai-tinkerers-afghanistan-chapter-introduction-community-meetup"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "ecfa6bb3dc4d85e0",
-      "title": "AI for DevOps & SRE: From Impressive Demos to Operational Trust",
-      "start": "2026-11-14T00:00:00+05:00",
-      "end": "2026-11-14T01:30:00+05:00",
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "Bucharest XDevOps Meetup Group",
-      "description": "AI for DevOps & SRE: From Impressive Demos to Operational Trust What would make you trust an AI agent with operational changes? An agent can generate a val",
-      "categories": [
-        "AI/ML",
-        "Agents"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://www.meetup.com/bucharest-xdevops-meetup-group/events/316850587",
-      "source_name": "Meetup",
-      "registration_url": "https://www.meetup.com/bucharest-xdevops-meetup-group/events/316850587/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-11-11T09:32:11.501930+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
-      "sources": [
-        "https://www.meetup.com/bucharest-xdevops-meetup-group/events/316850587"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "86bf6363e82acade",
-      "title": "✨🔧 BuildTogetHER with Madina: Build your first RAG",
-      "start": "2026-11-14T02:00:00+05:00",
-      "end": "2026-11-14T03:00:00+05:00",
-      "time_known": true,
-      "venue": "Online Event",
-      "format": "online",
-      "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Aparna Ramesh, Anennya Veeraraghavan, Anennya, Patty O'Brien Novak, Aparna Ramesh, Patty OBrien N",
-      "description": "In November's BuildTogetHER with Madina, we'll learn how to give AI your own reference library (also known as RAG). Most of us have a document we've never fully read. What if AI could answer from your stuff, with citations, instead of guessing from the whole internet? That's RAG, and Madina Gbotoe, our Chief AI Officer, builds these for a living. T",
-      "categories": [
-        "AI/ML"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://luma.com/women-xxo5",
-      "source_name": "Luma",
-      "registration_url": "https://luma.com/women-xxo5",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
-      "sources": [
-        "https://luma.com/women-xxo5"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "95552da282b74d1c",
-      "title": "AI Tinkerers Chennai — Inaugural Online Workshop: Understanding Fine-tuning",
-      "start": "2026-11-14T09:30:00+05:00",
-      "end": "2026-11-14T11:30:00+05:00",
-      "time_known": true,
-      "venue": "Online",
-      "format": "online",
-      "organizer": "AI Tinkerers - Chennai",
-      "description": "The inaugural session of AI Tinkerers Chennai. Understanding Fine-tuning: a hands-on finance example. Watch a small open model learn a real finance task, live, on a free GPU, and see how to judge whether it actually worked. What we’ll do, in ...",
-      "categories": [
-        "AI/ML"
-      ],
-      "cost": "Free",
-      "is_free": true,
-      "student_only": false,
-      "source_url": "https://chennai.aitinkerers.org/p/ai-tinkerers-chennai-inaugural-online-workshop-understanding-fine-tuning",
-      "source_name": "chennai.aitinkerers.org",
-      "registration_url": "https://chennai.aitinkerers.org/p/ai-tinkerers-chennai-inaugural-online-workshop-understanding-fine-tuning",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
-      "confidence": 90,
-      "first_seen": "2026-11-09T09:54:19.975940+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
-      "sources": [
-        "https://chennai.aitinkerers.org/p/ai-tinkerers-chennai-inaugural-online-workshop-understanding-fine-tuning"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "d93edafd965a07d1",
-      "title": "Future Builders Connect",
-      "start": "2026-11-14T12:00:00+05:00",
-      "end": "2026-11-14T14:00:00+05:00",
-      "time_known": true,
-      "venue": "NED University Of Engineering & Technology, NED University Of Engineering & Technology, Karachi, Pakistan, Karachi, Karachi, pk",
-      "format": "in-person",
-      "organizer": "AWS SBG at Sindh Madressatul Islam University",
-      "description": "# Future Builder Connect 🚀 ### AWS Builder Center Meetup \\| Venue: CEGA Are you ready to take your first step toward becoming an active member of the AW",
-      "categories": [
-        "Emerging Tech",
-        "Students"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://www.meetup.com/aws-sbg-at-sindh-madressatul-islam-university/events/317270348",
-      "source_name": "Meetup",
-      "registration_url": "https://www.meetup.com/aws-sbg-at-sindh-madressatul-islam-university/events/317270348/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
-      "confidence": 90,
-      "first_seen": "2026-11-12T09:55:07.968570+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
-      "sources": [
-        "https://www.meetup.com/aws-sbg-at-sindh-madressatul-islam-university/events/317270348"
-      ],
-      "extraction": "jsonld"
-    },
     {
       "id": "dde6ca34d69b5feb",
       "title": "Agentic Ripple",
       "start": "2026-11-14T12:00:00+05:00",
-      "end": null,
+      "end": "2026-11-14T15:00:00+05:00",
       "time_known": true,
-      "venue": "NED University of Engineering and Technology, Karachi",
+      "venue": "NED University of Engineering and Technology, NED University of Engineering & Technology University Road, Karachi - 75270, Pakistan, Karachi, SD, PK",
       "format": "in-person",
-      "organizer": "",
-      "description": "A technology event hosted at NED University of Engineering and Technology.",
+      "organizer": "Global AI Karachi",
+      "description": "� Agentic Ripple is here! Global AI Community Karachi Chapter, in collaboration with Microsoft, is excited to announce the date for Agentic Ripple, our upcoming AI event. � Date: Saturday, November 14th, 2026 � Time: 12:00 PM to 3:00 PM � Venue: CEGA, NED University, Karachi Join students, develo",
       "categories": [
+        "AI/ML",
         "Agents",
         "Emerging Tech",
         "Students"
@@ -199,18 +23,18 @@
       "cost": "Cost not listed",
       "is_free": null,
       "student_only": false,
-      "source_url": "https://allevents.in/karachi/technology",
+      "source_url": "https://allevents.in/karachi/agentic-ripple/200031002947147",
       "source_name": "allevents.in",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
-      "confidence": 25,
-      "first_seen": "2026-11-11T09:32:11.501930+00:00",
-      "last_checked": "2026-11-11T09:32:11.501930+00:00",
+      "registration_url": "https://allevents.in/karachi/agentic-ripple/200031002947147",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-11-14T09:03:33.205616+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
-        "https://allevents.in/karachi/technology"
+        "https://allevents.in/karachi/agentic-ripple/200031002947147"
       ],
-      "extraction": "llm"
+      "extraction": "jsonld"
     },
     {
       "id": "2d64e45ba9728945",
@@ -294,7 +118,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://dev.events/conferences/aevum-builder-challenge-1-xbtx05-m"
       ],
@@ -324,7 +148,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-12T09:55:07.968570+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.meetup.com/aws-sbg-at-sir-syed-university-of-engineering-and-technology/events/317385150"
       ],
@@ -353,9 +177,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-31T08:29:42.961223+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
-        "https://www.meetup.com/de-DE/karachi-startup-idea-to-ipo/events/316991929",
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/316991929"
       ],
       "extraction": "jsonld"
@@ -384,7 +207,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-10T09:58:06.872131+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.meetup.com/aws-sbg-at-za-bhutto-inst-of-sci-and-tech-univ-karachi/events/317308858"
       ],
@@ -413,7 +236,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-16T07:17:27.456081+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.meetup.com/wordpress-online-meetup-dach/events/316960555"
       ],
@@ -423,7 +246,7 @@
       "id": "8d2053e58d2021f1",
       "title": "Our Second Event of AWS Student Builder Group MUST",
       "start": "2026-11-19T18:00:00+05:00",
-      "end": null,
+      "end": "2026-11-19T21:00:00+05:00",
       "time_known": true,
       "venue": "Online",
       "format": "online",
@@ -443,7 +266,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.meetup.com/aws-sbg-at-mirpur-univ-of-science-tech-city-campus/events/317310388"
       ],
@@ -472,7 +295,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://luma.com/women-eftw"
       ],
@@ -501,9 +324,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-02T09:37:13.930040+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
-        "https://www.meetup.com/de-DE/karachi-startup-idea-to-ipo/events/317187803",
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317187803"
       ],
       "extraction": "jsonld"
@@ -531,7 +353,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -539,14 +361,14 @@
     },
     {
       "id": "9e13d6816c534b86",
-      "title": "🛠️✨ Build TogetHER Office Hours with Madina: Your first RAG",
+      "title": "🛠️✨ Build TogetHER with Madina: Your first RAG Part 2",
       "start": "2026-11-21T02:00:00+05:00",
       "end": "2026-11-21T03:00:00+05:00",
       "time_known": true,
       "venue": "Online Event",
       "format": "online",
       "organizer": "Women Defining AI: Community Calendar, Women Defining AI .org, Aparna Ramesh, Anennya Veeraraghavan, Patty OBrien Novak, Aparna Ramesh, Anennya, Patty O'Brien N",
-      "description": "🛠️💬 Build TogetHER Office Hours with Madina: Your first RAG This is part 2 of 2. At the Nov 13 session, Madina Gbotoe walked us through building a first RAG. Now it's your turn to take it further, with Madina and the Build TogetHER team on hand to help. Bring whatever you've got, whether that's a working prototype, a half-built idea or a \"why is it",
+      "description": "🛠️💬 Build TogetHER with Madina: Your first RAG Part 2 This is part 2 of 2. At the Nov 13 session, Madina Gbotoe walked us through building a first RAG. Now it's your turn to take it further, with Madina and the Build TogetHER team on hand to help. Bring whatever you've got, whether that's a working prototype, a half-built idea or a \"why is it makin",
       "categories": [
         "AI/ML"
       ],
@@ -560,7 +382,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-10-11T09:00:15.931739+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://luma.com/women-4hy4"
       ],
@@ -577,6 +399,7 @@
       "organizer": "",
       "description": "Artificial Intelligence (AI) hackathon Online",
       "categories": [
+        "AI/ML",
         "Emerging Tech"
       ],
       "cost": "Cost not listed",
@@ -589,7 +412,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://dev.events/conferences/homingo-hack-days-uwsxrl8e"
       ],
@@ -619,7 +442,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://learningnests.com/AI4Everyone"
       ],
@@ -646,8 +469,8 @@
       "source_name": "Meetup",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-02T09:37:13.930040+00:00",
       "last_checked": "2026-11-13T09:39:53.587016+00:00",
       "sources": [
@@ -678,7 +501,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -707,7 +530,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-11T09:32:11.501930+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317353282"
       ],
@@ -738,7 +561,7 @@
       "verification_reason": "The event page could not be rechecked. Details may come from search results or an earlier page; confirm them with the organizer.",
       "confidence": 25,
       "first_seen": "2026-11-11T09:32:11.501930+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.facebook.com/DenningKarachi/posts/got-an-idea-lets-turn-it-into-something-realstep-into-the-world-of-ai-automation/1850601090402106"
       ],
@@ -767,7 +590,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -796,7 +619,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://dev.events/conferences/principal-developer-online-5-2022"
       ],
@@ -826,7 +649,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
       "confidence": 55,
       "first_seen": "2026-10-17T07:01:24.976257+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.snowflake.com/data-and-ai-fast-track-webinar-series"
       ],
@@ -910,8 +733,8 @@
       "source_name": "dev.events",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
-      "confidence": 55,
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
       "last_checked": "2026-11-13T09:39:53.587016+00:00",
       "sources": [
@@ -942,7 +765,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://dev.events/conferences/grain-zap-global-innovation-challenge-2026-4xlavo1f"
       ],
@@ -972,10 +795,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-02T09:37:13.930040+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
-        "https://www.meetup.com/aws-ug-karachi/events/317063802",
-        "https://www.meetup.com/it-IT/aws-ug-karachi/events/317063802"
+        "https://www.meetup.com/aws-ug-karachi/events/317063802"
       ],
       "extraction": "jsonld"
     },
@@ -1002,7 +824,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -1032,7 +854,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -1062,7 +884,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-13T09:39:53.587016+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://www.pim.com.pk/product/agentic-ai-karachi"
       ],
@@ -1088,12 +910,12 @@
       "student_only": false,
       "source_url": "https://aiseason.tech/",
       "source_name": "aiseason.tech",
-      "registration_url": "",
-      "verification": "unverified",
-      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
-      "confidence": 25,
+      "registration_url": "https://aiseason.tech/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
       "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-11T09:32:11.501930+00:00",
+      "last_checked": "2026-11-14T09:03:33.205616+00:00",
       "sources": [
         "https://aiseason.tech/"
       ],
