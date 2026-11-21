@@ -1,27 +1,26 @@
 {
   "state": "partial",
-  "last_attempt": "2026-11-20T10:08:13.566149+00:00",
-  "last_success": "2026-11-20T10:08:13.566149+00:00",
-  "message": "32 upcoming events",
+  "last_attempt": "2026-11-21T09:55:38.489323+00:00",
+  "last_success": "2026-11-21T09:55:38.489323+00:00",
+  "message": "31 upcoming events",
   "warnings": [
+    "10times.com: event page unavailable",
+    "Eventbrite: discovery page unavailable",
+    "Eventbrite: event page unavailable",
     "Facebook: event page unavailable",
     "Free web search unavailable",
     "Gemini extraction unavailable (HTTP 503)",
     "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
     "Gemini rate limit reached",
-    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
-    "britannica.com: event page unavailable",
-    "en.wikipedia.org: event page unavailable",
+    "allconferencealert.com: event page unavailable",
+    "icec.neduet.edu.pk: event page unavailable",
     "instagram.com: event page unavailable",
-    "internationalconferencealerts.com: event page unavailable",
-    "medium.com: event page unavailable",
-    "tripadvisor.com: event page unavailable",
-    "youtube.com: event page unavailable"
+    "internationalconferencealerts.com: event page unavailable"
   ],
-  "pages_checked": 43,
-  "llm_calls": 30,
-  "search_credits_reserved": 160
+  "pages_checked": 48,
+  "llm_calls": 25,
+  "search_credits_reserved": 168
 }
