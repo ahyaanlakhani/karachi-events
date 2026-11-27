@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-11-26T11:00:21.388340+00:00",
+  "generated_at": "2026-11-27T10:58:31.117594+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -180,7 +180,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-24T12:36:17.076093+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-road-to-devfest-karachi-2026-buildathon-02-designers"
       ],
@@ -210,7 +210,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-19T10:27:50.297088+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://pakistanhackathons.com/events/hack-day-karachi-x-hf-ai-force"
       ],
@@ -239,7 +239,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -268,7 +268,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.meetup.com/de-DE/karachi-startup-idea-to-ipo/events/317478453",
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317478453"
@@ -299,9 +299,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
-        "https://www.meetup.com/es-ES/ibmkarachi/events/317470706",
         "https://www.meetup.com/ibmkarachi/events/317470706"
       ],
       "extraction": "jsonld"
@@ -329,7 +328,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/317457119"
       ],
@@ -359,7 +358,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317378818"
       ],
@@ -388,7 +387,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://dev.events/conferences/principal-developer-online-5-2022"
       ],
@@ -417,7 +416,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317352309"
       ],
@@ -477,7 +476,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-20T10:08:13.566149+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.eventbrite.com/e/the-cost-of-artificial-intelligence-tickets-2004736939151"
       ],
@@ -506,7 +505,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-17T10:48:56.956775+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-december-demo-meetup"
       ],
@@ -622,7 +621,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-24T12:36:17.076093+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317007248"
       ],
@@ -651,40 +650,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://dev.events/conferences/grain-zap-global-innovation-challenge-2026-4xlavo1f"
-      ],
-      "extraction": "jsonld"
-    },
-    {
-      "id": "967fd2a2886bc988",
-      "title": "AWS Community Day Karachi 2026",
-      "start": "2026-12-12T10:30:00+05:00",
-      "end": "2026-12-12T12:30:00+05:00",
-      "time_known": true,
-      "venue": "Mohammad Ali Jinnah University, MAJU Road, Main Shahrah-e-Faisal, 22-E, Shahrah-e-Faisal Block 6 P.E.C.H.S., Karachi, Karachi City, Sindh 75400, Pakistan, Karachi, Karachi, pk",
-      "format": "in-person",
-      "organizer": "AWS UG Karachi",
-      "description": "​**AWS Community Day Karachi** is the largest community-led AWS event in the city, bringing together cloud enthusiasts, developers, IT professionals, and i",
-      "categories": [
-        "Emerging Tech",
-        "Students"
-      ],
-      "cost": "Cost not listed",
-      "is_free": null,
-      "student_only": false,
-      "source_url": "https://www.meetup.com/aws-ug-karachi/events/317063802",
-      "source_name": "Meetup",
-      "registration_url": "https://www.meetup.com/aws-ug-karachi/events/317063802/",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
-      "confidence": 90,
-      "first_seen": "2026-11-02T09:37:13.930040+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
-      "sources": [
-        "https://www.meetup.com/aws-ug-karachi/events/317063802",
-        "https://www.meetup.com/it-IT/aws-ug-karachi/events/317063802"
       ],
       "extraction": "jsonld"
     },
@@ -711,7 +679,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -741,9 +709,40 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-23T10:53:07.076192+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://dev.events/conferences/apex-online-hackathon-2026-durj-yzz"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "7133039961cb97ee",
+      "title": "AWS Community Day Karachi 2026",
+      "start": "2026-12-19T10:30:00+05:00",
+      "end": "2026-12-19T12:30:00+05:00",
+      "time_known": true,
+      "venue": "Mohammad Ali Jinnah University, MAJU Road, Main Shahrah-e-Faisal, 22-E, Shahrah-e-Faisal Block 6 P.E.C.H.S., Karachi, Karachi City, Sindh 75400, Pakistan, Karachi, Karachi, pk",
+      "format": "in-person",
+      "organizer": "AWS UG Karachi",
+      "description": "​**AWS Community Day Karachi** is the largest community-led AWS event in the city, bringing together cloud enthusiasts, developers, IT professionals, and i",
+      "categories": [
+        "Emerging Tech",
+        "Students"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.meetup.com/aws-ug-karachi/events/317063802",
+      "source_name": "Meetup",
+      "registration_url": "https://www.meetup.com/aws-ug-karachi/events/317063802/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "sources": [
+        "https://www.meetup.com/aws-ug-karachi/events/317063802",
+        "https://www.meetup.com/it-IT/aws-ug-karachi/events/317063802"
       ],
       "extraction": "jsonld"
     },
@@ -771,7 +770,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -801,7 +800,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://www.pim.com.pk/product/agentic-ai-karachi"
       ],
@@ -832,9 +831,40 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://aiseason.tech/"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "b673c1bb29d37aaa",
+      "title": "AI Mustaqbil Hackathon",
+      "start": "2027-01-01T11:00:00+05:00",
+      "end": "2027-01-03T23:00:00+05:00",
+      "time_known": true,
+      "venue": "Dastgir Colony, Sindh, Pakistan, Karachi, Pakistan, Karachi, SD, PK",
+      "format": "in-person",
+      "organizer": "Streams Academy International",
+      "description": "Registrations are OPEN: AI Mustaqbil, a 60-Hour AI Hackathon! Calling all school, college and university students and young professionals! Spend 60 hours building real AI solutions with industry mentors, then pitch to expert judges. Date: 1st – 3rd January 2027 Venue: NASTP, Karachi Who can join:",
+      "categories": [
+        "AI/ML",
+        "Emerging Tech",
+        "Students"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://allevents.in/karachi/ai-mustaqbil-hackathon/200030962024350",
+      "source_name": "allevents.in",
+      "registration_url": "https://allevents.in/karachi/ai-mustaqbil-hackathon/200030962024350",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
+      "confidence": 90,
+      "first_seen": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "sources": [
+        "https://allevents.in/karachi/ai-mustaqbil-hackathon/200030962024350"
       ],
       "extraction": "jsonld"
     },
@@ -922,7 +952,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-23T10:53:07.076192+00:00",
-      "last_checked": "2026-11-26T11:00:21.388340+00:00",
+      "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
         "https://dev.events/conferences/teens-in-ai-global-ai-techathon-2027-shape-what-s-next-vaczvswe"
       ],
