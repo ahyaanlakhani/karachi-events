@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "live",
-  "generated_at": "2026-11-27T10:58:31.117594+00:00",
+  "generated_at": "2026-11-28T10:35:04.760013+00:00",
   "timezone": "Asia/Karachi",
   "events": [
     {
@@ -180,7 +180,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-24T12:36:17.076093+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://gdg.community.dev/events/details/google-gdg-kolachi-presents-road-to-devfest-karachi-2026-buildathon-02-designers"
       ],
@@ -205,10 +205,10 @@
       "student_only": false,
       "source_url": "https://pakistanhackathons.com/events/hack-day-karachi-x-hf-ai-force",
       "source_name": "pakistanhackathons.com",
-      "registration_url": "https://pakistanhackathons.com/events/hack-day-karachi-x-hf-ai-force",
-      "verification": "verified",
-      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
-      "confidence": 90,
+      "registration_url": "",
+      "verification": "unverified",
+      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
+      "confidence": 25,
       "first_seen": "2026-11-19T10:27:50.297088+00:00",
       "last_checked": "2026-11-27T10:58:31.117594+00:00",
       "sources": [
@@ -239,7 +239,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -268,9 +268,8 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
-        "https://www.meetup.com/de-DE/karachi-startup-idea-to-ipo/events/317478453",
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317478453"
       ],
       "extraction": "jsonld"
@@ -299,8 +298,9 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
+        "https://www.meetup.com/es-ES/ibmkarachi/events/317470706",
         "https://www.meetup.com/ibmkarachi/events/317470706"
       ],
       "extraction": "jsonld"
@@ -328,7 +328,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.meetup.com/lfdt-pakistan/events/317457119"
       ],
@@ -358,7 +358,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317378818"
       ],
@@ -387,7 +387,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://dev.events/conferences/principal-developer-online-5-2022"
       ],
@@ -416,7 +416,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-18T10:17:48.558575+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317352309"
       ],
@@ -461,7 +461,7 @@
       "venue": "Online",
       "format": "online",
       "organizer": "Community Climate Council",
-      "description": "Explore AI's climate impact, data centre expansion, energy and water use, climate justice, and community involvement!",
+      "description": "AI is convenient, but are you willing to give up your resources for it?",
       "categories": [
         "AI/ML",
         "Sustainability"
@@ -476,7 +476,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-20T10:08:13.566149+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.eventbrite.com/e/the-cost-of-artificial-intelligence-tickets-2004736939151"
       ],
@@ -505,7 +505,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-17T10:48:56.956775+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://karachi.aitinkerers.org/p/ai-tinkerers-karachi-december-demo-meetup"
       ],
@@ -589,10 +589,10 @@
       "source_name": "dev.events",
       "registration_url": "",
       "verification": "unverified",
-      "verification_reason": "Retained from an earlier collection. This run could not confirm the event again; check the source for changes.",
-      "confidence": 25,
+      "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI. Confirm access from Pakistan with the organizer.",
+      "confidence": 55,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-23T10:53:07.076192+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://dev.events/conferences/clean-architecture-online-4-2023"
       ],
@@ -621,7 +621,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-24T12:36:17.076093+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317007248"
       ],
@@ -650,7 +650,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-13T09:39:53.587016+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://dev.events/conferences/grain-zap-global-innovation-challenge-2026-4xlavo1f"
       ],
@@ -679,7 +679,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -709,9 +709,38 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-23T10:53:07.076192+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://dev.events/conferences/apex-online-hackathon-2026-durj-yzz"
+      ],
+      "extraction": "jsonld"
+    },
+    {
+      "id": "c66f351eaf1d0582",
+      "title": "How to Build Your Personal Brand with AI in 2027",
+      "start": "2026-12-16T04:00:00+05:00",
+      "end": null,
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "Karachi Startup: Idea to IPO",
+      "description": "This event is being promoted by many groups. Our meetup group is participating by promoting this event. This event is organized by Albert's List. Our me",
+      "categories": [
+        "AI/ML"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317437851",
+      "source_name": "Meetup",
+      "registration_url": "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317437851/",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-11-28T10:35:04.760013+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
+      "sources": [
+        "https://www.meetup.com/karachi-startup-idea-to-ipo/events/317437851"
       ],
       "extraction": "jsonld"
     },
@@ -739,7 +768,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-27T10:58:31.117594+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.meetup.com/aws-ug-karachi/events/317063802",
         "https://www.meetup.com/it-IT/aws-ug-karachi/events/317063802"
@@ -770,7 +799,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.pim.com.pk/courses-scheduled-at-pim-karachi"
       ],
@@ -800,7 +829,7 @@
       "verification_reason": "The page is reachable, but matching structured title, date and location evidence could not be confirmed. Details may have been extracted by AI.",
       "confidence": 55,
       "first_seen": "2026-10-18T07:17:04.362179+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://www.pim.com.pk/product/agentic-ai-karachi"
       ],
@@ -831,7 +860,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-07T08:53:21.344000+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://aiseason.tech/"
       ],
@@ -862,7 +891,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed.",
       "confidence": 90,
       "first_seen": "2026-11-27T10:58:31.117594+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://allevents.in/karachi/ai-mustaqbil-hackathon/200030962024350"
       ],
@@ -929,6 +958,36 @@
       "extraction": "llm"
     },
     {
+      "id": "1aa26b706086e194",
+      "title": "Sycora AI Hackathon",
+      "start": "2027-01-16T05:00:00+05:00",
+      "end": "2027-01-31T05:00:00+05:00",
+      "time_known": true,
+      "venue": "Online",
+      "format": "online",
+      "organizer": "",
+      "description": "Artificial Intelligence (AI) hackathon Online",
+      "categories": [
+        "AI/ML",
+        "Emerging Tech"
+      ],
+      "cost": "Cost not listed",
+      "is_free": null,
+      "student_only": false,
+      "source_url": "https://dev.events/conferences/sycora-ai-hackathon-i-spnx2y",
+      "source_name": "dev.events",
+      "registration_url": "https://dev.events/conferences/sycora-ai-hackathon-i-spnx2y",
+      "verification": "verified",
+      "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
+      "confidence": 90,
+      "first_seen": "2026-11-28T10:35:04.760013+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
+      "sources": [
+        "https://dev.events/conferences/sycora-ai-hackathon-i-spnx2y"
+      ],
+      "extraction": "jsonld"
+    },
+    {
       "id": "e8d7e0921097c670",
       "title": "Teens in AI Global AI Techathon 2027 - Shape What’s Next",
       "start": "2027-01-18T05:00:00+05:00",
@@ -952,7 +1011,7 @@
       "verification_reason": "Matching title, date and location were found in structured event data on the reachable event page. Registration availability is not guaranteed. Confirm access from Pakistan with the organizer.",
       "confidence": 90,
       "first_seen": "2026-11-23T10:53:07.076192+00:00",
-      "last_checked": "2026-11-27T10:58:31.117594+00:00",
+      "last_checked": "2026-11-28T10:35:04.760013+00:00",
       "sources": [
         "https://dev.events/conferences/teens-in-ai-global-ai-techathon-2027-shape-what-s-next-vaczvswe"
       ],

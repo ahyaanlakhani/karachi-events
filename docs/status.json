@@ -1,20 +1,21 @@
 {
   "state": "partial",
-  "last_attempt": "2026-11-27T10:58:31.117594+00:00",
-  "last_success": "2026-11-27T10:58:31.117594+00:00",
-  "message": "33 upcoming events",
+  "last_attempt": "2026-11-28T10:35:04.760013+00:00",
+  "last_success": "2026-11-28T10:35:04.760013+00:00",
+  "message": "35 upcoming events",
   "warnings": [
     "Eventbrite: discovery page unavailable",
+    "Eventbrite: event page unavailable",
     "Facebook: event page unavailable",
     "Gemini extraction unavailable (HTTP 503)",
+    "Gemini extraction unavailable (network error)",
     "Gemini model gemini-2.5-flash unavailable; used gemini-3.8-flash",
+    "LinkedIn: event page unavailable",
     "Page budget reached; some sources await the next run",
     "Some events retained from earlier checks",
-    "hack-scout-delta.vercel.app: event page unavailable",
-    "instagram.com: event page unavailable",
-    "internationalconferencealerts.com: event page unavailable"
+    "pakistanhackathons.com: event page unavailable"
   ],
-  "pages_checked": 55,
-  "llm_calls": 10,
-  "search_credits_reserved": 216
+  "pages_checked": 52,
+  "llm_calls": 13,
+  "search_credits_reserved": 224
 }
